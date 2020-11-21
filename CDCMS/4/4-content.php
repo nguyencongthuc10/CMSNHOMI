@@ -201,11 +201,81 @@ $url_path = str_replace('\\', '/', $url_path);
 								<!-- Table Striped row -->
 								<div class="table-responsive">
 								  <table class="table">
-								    ...
+								 <thead>
+							    <tr>
+							     <th scope="col">#</th>
+							      <th scope="col">Table heading</th>
+							      <th scope="col">Table heading</th>
+							      <th scope="col">Table heading</th>
+							      <th scope="col">Table heading</th>
+							      <th scope="col">Table heading</th>
+							      <th scope="col">Table heading</th>
+
+							    </tr>
+							  </thead>
+							  <tbody>
+							    <tr>
+							      <th scope="row">1</th>
+							      <td>Table cell</td>
+							      <td>Table cell</td>
+							      <td>Table cell</td>
+							      <td>Table cell</td>
+							      <td>Table cell</td>
+							      <td>Table cell</td>
+							    </tr>
+							    <tr>
+							      <th scope="row">2</th>
+							      <td>Table cell</td>
+							      <td>Table cell</td>
+							      <td>Table cell</td>
+							      <td>Table cell</td>
+							      <td>Table cell</td>
+							      <td>Table cell</td>
+							    </tr>
+							    <tr>
+							      <th scope="row">3</th>
+							     <td>Table cell</td>
+							      <td>Table cell</td>
+							      <td>Table cell</td>
+							      <td>Table cell</td>
+							      <td>Table cell</td>
+							      <td>Table cell</td>
+							    </tr>
+							  </tbody>
 								  </table>
 								</div>
 								<!-- End -->
+								<p>Feel free to combine any of the table classes to achieve different looks by utilizing any of the available classes .</p>
 								<!-- Table Striped row -->
+								<table class="table table-bordered table-striped">
+								  <thead>
+								    <tr>
+								      <th scope="col">#</th>
+								       <th scope="col">First Name</th>
+								      <th scope="col">Last Name</th>
+								      <th scope="col">Username</th>
+								    </tr>
+								  </thead>
+								  <tbody>
+								    <tr>
+								      <th scope="row">1</th>
+								      <td>Mark</td>
+								      <td>Otto</td>
+								      <td>@mdo</td>
+								    </tr>
+								    <tr>
+								      <th scope="row">2</th>
+								      <td>Jacob</td>
+								      <td>Thornton</td>
+								      <td>@fat</td>
+								    </tr>
+								    <tr>
+								      <th scope="row">3</th>
+								      <td colspan="2">Larry the Bird</td>
+								      <td>@twitter</td>
+								    </tr>
+								  </tbody>
+								</table>
 								<!-- End -->
 	    				</div>
 
