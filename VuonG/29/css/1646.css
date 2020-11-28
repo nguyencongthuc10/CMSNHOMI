@@ -1,0 +1,22 @@
+.type-245 {
+  font-style: normal;
+}
+.type-245 .container {
+  background-color: #eee;
+}
+.type-245 .container .box {
+  width: 60%;
+  margin-left: 20%;
+  background-color: #fff;
+}
+.type-245 .container .box .box-trans i {
+  position: absolute;
+  left: 40px;
+  top: 35px;
+  font-size: 40px;
+  line-height: 1;
+  color: #999;
+}
+.type-245 .container .box .box-trans i:before {
+  content: '\f238';
+}
