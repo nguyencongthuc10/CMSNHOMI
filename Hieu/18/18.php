@@ -17,7 +17,9 @@ $url_path = str_replace('\\', '/', $url_path);
 ?>
     
 
-<html lang="en-US">
+<html lang="en-US" style="
+    background: rgba(0, 0, 0, 0.5);
+">
 <head>
     <meta charset="UTF-8">
     <title>18</title>  
