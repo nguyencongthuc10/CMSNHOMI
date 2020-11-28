@@ -8,7 +8,15 @@ $url_path = $url_host . $matches[1][0];
 $url_path = str_replace('\\', '/', $url_path);
 ?>
 <div class="type-14">
-  <div class="container">
-   </div>
+  	<div class="type-14-bao">
+  		<h3>What Clients say
+  			<span>Id tale utinam ius, an mei omnium recusabo iracundia.</span>
+  		</h3>
+  		<div class="container">
+  			<div class="row">
+  				<div class="col-md-8 col-md-offset-2"></div>
+  			</div>
+  		</div>
+  	</div> 
 </div>
 
