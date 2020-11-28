@@ -1,4 +1,4 @@
-.one {
+.type-15 .type-15-one {
   margin-bottom: 20px;
   border: 1px solid #ededed;
   box-shadow: 0px 3px 0px 0px #f0f2f4;
@@ -6,19 +6,44 @@
   border-radius: 5px;
   padding: 20px;
 }
-.one a {
+.type-15 .type-15-one a {
   color: #1aa79b;
   text-decoration: none;
   transition: all 0.2s ease;
   outline: none;
   background-color: transparent;
 }
-.one img {
+.type-15 .type-15-one img {
   vertical-align: middle;
   border: 0;
 }
-.one .img-responsive {
+.type-15 .type-15-one .type-15-img-responsive {
   display: block;
   max-width: 100%;
   height: auto;
+}
+.type-15 .type-15-one .type-15-one_info {
+  padding: 8px 10px;
+  background-color: #333;
+  margin-bottom: 12px;
+  color: #fff;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+.type-15 .type-15-one .type-15-one_info .type-15-one_left {
+  float: left;
+}
+.type-15 .type-15-one .type-15-one_info .type-15-one_left ul {
+  margin-left: 0;
+  padding-left: 0;
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+.type-15 .type-15-one .type-15-one_info .type-15-one_left ul li {
+  float: left;
+  margin-bottom: 15px;
+  list-style: none;
+}
+.type-15 .type-15-one .type-15-one_info .type-15-one_left ul li i {
+  margin-right: 4px;
 }

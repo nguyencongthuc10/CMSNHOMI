@@ -15,10 +15,24 @@ $url_path = str_replace('\\', '/', $url_path);
     <div class="container sidebar">
         <div class="row">
             <div class="col-md-9">
-                <div class="one">
+                <div class="type-15-one">
                     <a href="#">
-                        <img src="images/2.jpg" alt="blog2" class="img-responsive">
+                        <img src="images/2.jpg" alt="blog2" class="type-15-img-responsive">
                     </a>
+                    <div class="type-15-one_info clearfix">
+                        <div class="type-15-one_left">
+                        <ul>
+                                <li><i class="fa fa-calendar-o"></i></i>December 20, 2020
+                                    <em><a href="#" title="admin"rel="author">admin</a></em>
+                                </li>
+                                <li></li>
+                                <li></li>
+                            </ul>
+                        </div>
+                        <div class="type-15-one_right">
+                            
+                        </div>
+                    </div>
             </div>
             <!--/END RIGHT CONTENTS HOME-->
         </div>
