@@ -1,4 +1,14 @@
-.type-15 .type-15-one {
+.type-15 .container {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.type-15 .blog {
+  padding-top: 60px;
+  padding-bottom: 30px;
+}
+.type-15 .one {
   margin-bottom: 20px;
   border: 1px solid #ededed;
   box-shadow: 0px 3px 0px 0px #f0f2f4;
@@ -6,23 +16,23 @@
   border-radius: 5px;
   padding: 20px;
 }
-.type-15 .type-15-one a {
+.type-15 .one a {
   color: #1aa79b;
   text-decoration: none;
   transition: all 0.2s ease;
   outline: none;
   background-color: transparent;
 }
-.type-15 .type-15-one img {
+.type-15 .one img {
   vertical-align: middle;
   border: 0;
 }
-.type-15 .type-15-one .type-15-img-responsive {
+.type-15 .one .img-responsive {
   display: block;
   max-width: 100%;
   height: auto;
 }
-.type-15 .type-15-one .type-15-one_info {
+.type-15 .one .one_info {
   padding: 8px 10px;
   background-color: #333;
   margin-bottom: 12px;
@@ -30,20 +40,46 @@
   border-bottom-left-radius: 5px;
   border-bottom-right-radius: 5px;
 }
-.type-15 .type-15-one .type-15-one_info .type-15-one_left {
+.type-15 .one .one_info a {
+  color: #fff;
+}
+.type-15 .one .one_info .one_left {
   float: left;
 }
-.type-15 .type-15-one .type-15-one_info .type-15-one_left ul {
+.type-15 .one .one_info .one_left ul {
   margin-left: 0;
   padding-left: 0;
   margin-top: 0;
   margin-bottom: 10px;
 }
-.type-15 .type-15-one .type-15-one_info .type-15-one_left ul li {
+.type-15 .one .one_info .one_left ul li {
   float: left;
-  margin-bottom: 15px;
+  margin-right: 15px;
   list-style: none;
 }
-.type-15 .type-15-one .type-15-one_info .type-15-one_left ul li i {
+.type-15 .one .one_info .one_left ul li i {
   margin-right: 4px;
+}
+.type-15 .one .one_info .one_right {
+  float: right;
+}
+.type-15 .one h2 {
+  font-size: 22px;
+}
+.type-15 .one .button {
+  padding: 10px 30px;
+  display: inline-block;
+  background-color: #1aa79b;
+  font-weight: 600;
+  color: #fff;
+  border-radius: 3px;
+  cursor: pointer;
+  border: 0;
+  font-size: 14px;
+  outline: none;
+  transition: all 0.3s ease;
+}
+.type-15 .one .button:hover {
+  color: #fff;
+  background-color: #ed145b;
 }
