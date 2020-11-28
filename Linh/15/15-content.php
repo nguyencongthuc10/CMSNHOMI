@@ -17,7 +17,7 @@ $url_path = str_replace('\\', '/', $url_path);
             <div class="col-md-9">
                 <div class="one">
                     <a href="#">
-                        <img src="images/2.jpg" alt="img-resposive">
+                        <img src="images/2.jpg" alt="blog2" class="img-responsive">
                     </a>
             </div>
             <!--/END RIGHT CONTENTS HOME-->
