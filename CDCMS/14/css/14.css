@@ -1,6 +1,8 @@
+.type-14 {
+  background: #eee;
+}
 .type-14 .type-14-bao {
   background: url(../images/parallax_home.jpg) no-repeat center center;
-  width: 100%;
   padding: 8% 0;
   text-align: center;
   color: #fff;
@@ -13,9 +15,87 @@
   color: #fff;
   margin-bottom: 30px;
 }
-.type-14 .type-14-bao span {
+.type-14 .type-14-bao p {
   color: #fff;
-  display: block;
   text-transform: none;
   font-size: 24px;
+}
+.type-14 .type-14-bao .box_overlay {
+  background-color: rgba(0,0,0,0.7);
+  padding: 35px 25px 35px 225px;
+  color: #fff;
+  position: relative;
+  font-size: 14px;
+  text-align: left;
+}
+.type-14 .type-14-bao .pic {
+  position: absolute;
+  left: 25px;
+  top: 20px;
+  width: 190px;
+  height: 80px;
+}
+.type-14 .type-14-bao .pic figure {
+  width: 80px;
+  height: 80px;
+  overflow: hidden;
+}
+.type-14 .type-14-bao .pic figure img {
+  width: 80px;
+  height: auto;
+  border: 5px solid rgba(0,0,0,0.2);
+}
+.type-14 .type-14-bao .pic h4 {
+  position: absolute;
+  left: 95px;
+  top: 18px;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 500;
+}
+.type-14 .type-14-bao .pic h4 small {
+  display: block;
+  color: #fff;
+  margin-top: 3px;
+}
+.type-14 .type-14-bao .comment {
+  border-left: 1px solid rgba(255,255,255,0.5);
+  padding-left: 25px;
+}
+.type-14 .swiper-container {
+  width: 100%;
+  height: 100%;
+  margin-bottom: 20px;
+}
+.type-14 .swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+.type-14 .swiper-pagination {
+  display: contents;
+}
+.type-14 .swiper-pagination-bullet {
+  width: 11px;
+  height: 11px;
+  margin-left: 10px;
+  background: #d6d6d6;
+  opacity: 1;
+}
+.type-14 .swiper-pagination-bullet:hover {
+  background: #ed145b;
+}
+.type-14 .swiper-pagination-bullet-active {
+  background: #ed145b !important;
 }

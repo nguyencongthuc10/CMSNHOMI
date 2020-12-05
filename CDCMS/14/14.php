@@ -20,9 +20,12 @@
         <title>module 14</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
         <link href="css/bootstrap.min.css" rel="stylesheet"  />
         <link href="css/font-awesome.min.css" rel="stylesheet"/>
         <link href="css/14.css" rel="stylesheet" type="text/css" />    
+        
+        
          <?php
         if (!class_exists('lessc')) {
             include ('./libs/lessc.inc.php');
@@ -33,6 +36,20 @@
     </head>
     <body>
          <?php  $dir_block.include'14-content.php'; ?>
+         
+           <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
          <!-- javascrip swiper -->
+           <script>
+
+
+            var swiper = new Swiper('.swiper-container', {
+              spaceBetween: 30,
+              loop: true,
+              pagination: {
+                el: '.swiper-pagination',
+                clickable: true,
+              },
+            });
+          </script>
     </body>
 </html>
