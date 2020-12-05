@@ -12,7 +12,7 @@ $url_path = str_replace('\\', '/', $url_path);
         require_once($dir_block.'/libs/lessc.inc.php');
     }
     $less = new lessc;
-    $less->compileFile('less/5.less', 'css/5.css');
+    $less->compileFile('less/3.less', 'css/3.css');
     
 ?>
     
@@ -20,17 +20,18 @@ $url_path = str_replace('\\', '/', $url_path);
 <html lang="en-US">
 <head>
     <meta charset="UTF-8">
-    <title>5</title>  
+    <title>3</title>  
     <link href="css/font-awesome.min.css" rel="stylesheet">       
-    <link href="css/5.css" rel="stylesheet" type="text/css" />
+    <link href="css/3.css" rel="stylesheet" type="text/css" />
     <script src="js/jquery-2.1.4.min.js"></script>
-    <script src="js/5.js"></script>  
+    <script src="js/3.js"></script>  
+     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"> 
     
 
 </head>
 
 <body>
-    <?php include $dir_block.'/5-content.php'; ?>
+    <?php include $dir_block.'/3-content.php'; ?>
     
 
 </body>
