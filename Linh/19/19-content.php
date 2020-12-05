@@ -12,121 +12,63 @@ $url_path = $url_host . $matches[1][0];
 $url_path = str_replace('\\', '/', $url_path);
 ?>
 <div class="type-19">
-    <div class="container about_us">
+    <div class="container audio">
         <div class="row">
-            <!--LEFT SIDE BAR-->
-            <!--/END LEFT SIDE BAR-->
-            <!--RIGHT CONTENTS HOME-->
-            <div class="col-md-8">
-                <div class="topnews">
-                    <div class="panel panel-default">
-                        <div class="panel-heading">
-                            <h2>Tin tức <br><span>Thông báo</span></h2>
-                        </div>
-                        <div class="panel-body news">
-                            <!--TOP NEWS-->
-                            <div class="topnews">
-                                <div class="row">
-                                    <div class="col-md-6">
-                                        <div class="row">
-                                            <div class="col-md-4 topnewstime">
-                                                <span class="topnewsdate">19</span><br>
-                                                <span class="topnewsmonth">Tháng 01</span><br>
-                                            </div>
-                                            <div class="col-md-8 bottom">
-                                                <div class="img text-center"> 
-                                                    <a href="#">
-                                                        <div class="topnewsthumb">
-                                                            <img src="http://<?php echo $url_path ?>/images/hinh1.jpg" alt="hinh1">
-                                                        </div>
-                                                    </a>
-                                                </div>
-                                                <h4>
-                                                    <a href="#">TDC kết nối, hợp tác cùng Tập đoàn BKAV</a>                            
-                                                </h4>
-                                                <div class="topnewsdesc">
-                                                    Ngày 18/01 vừa qua, bà Nguyễn Thị Lý – Hiệu trưởng cùng bà Phạm Ngọc Tường – Phó Hiệu trưởng Trường Cao đẳng Công nghệ Thủ Đức (TDC) đã có chuyến thăm và làm việc cùng đại diện lãnh đạo Tập đoàn BKAV (Khu Đô thị Yên Hoà, Q.Cầu Giấy, HN).
-                                                    <a href="#">[...]</a>                            
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-6 right">
-                                        <div class="row">
-                                            <div class="col-md-4 topnewstime">
-                                                <span class="topnewsdate">12</span><br>
-                                                <span class="topnewsmonth">Tháng 01</span><br>
-                                            </div>
-                                            <div class="col-md-8">
-                                                <div class="img text-center"> 
-                                                    <a href="#">
-                                                        <div class="topnewsthumb">
-                                                            <img src="http://<?php echo $url_path ?>/images/hinh2.jpg" alt="hinh2">
-                                                        </div>
-                                                    </a>
-                                                </div>
-                                                <h4>
-                                                    <a href="#">Đại diện HCA đến thăm và làm việc cùng Trường Cao đẳng Công nghệ Thủ Đức</a>                            
-                                                </h4>
-                                                <div class="topnewsdesc">
-                                                    Sáng ngày 10/01, ông Vũ Anh Tuấn – Tổng Thư ký Hội tin học TP.Hồ Chí Minh (Ho Chi Minh City Computer Assosiation – HCA) và các thành viên khác của Hội đã đến thăm và làm việc với lãnh đạo Trường Cao đẳng Công nghệ Thủ Đức (TDC).
-                                                    <a href="#">[...]</a>                           
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
+            <div class="col-md-8 col-md-offset-2">
+                <div class="general">
+                    <img src="images/audio_1.jpg" alt="audio_1" width="900" height="300" class="img-responsive">
+                    <div class="a_audio">
+                        <h3>General info an history</h3>
+                        <p>Mea primis sapientem aliquando cu, ubique vocibus euripidis eam te, usu ei soluta prodesset conceptam. Ad nostrud appareat recteque usu. Vis id purto omittantur, vim cu ferri insolens deserunt.</p>
+                        <span class="audio-offscreen">Audio Player</span>
+
+                        <div id="audio_0" class="audio-container svg audio-audio" tabindex="0" role="application" aria-label="Audio Player" style="width: 290px; height:30px;">
+                            <div class="audio-inner">
+                                <div class="audio-mediaelement">
+                                    <audio id="audio_player1" src="media/ChasingCorporate.mp3" type="audio/mp3"></audio>
                                 </div>
+                                <div class="audio-players">
+                                    <div class="audio-poster audio-player" style="display:none; width:290px; height:30px;"></div>
+                                </div>
+                                <div class="audio-controls">
+                                    <div class="audio-button audio-playpause-button audio-play">
+                                        <button type="button" aria-label="Play" aria-controls="audio_0" title="Play"></button>
+                                    </div>
+                                    <div class="audio-time audio-curenttime-container" role="timer" aria-live="off">
+                                        <span class="audio-currenttime">00:00</span>
+                                    </div>
+                                    <div class="audio-time-rail" style="width:114px;">
+                                        <span class="audio-time-total audio-time-slider" style="width: 104px;" aria-label="Time Slider" aria-valuemax="0" aria-valuemax="100" aria-valuenow="0" aria-valuetext="00:00" role="slider" tabindex="0">
+                                            <span class="audio-time-buffering"></span>
+                                            <span class="audio-time-current"></span>
+                                            <span class="audio-time-handle"></span>
+                                            <span class="audio-time-fload"></span>
+                                            <span class="audio-time-fload-current">00:00</span>
+                                            <span class="audio-time-fload-corner"></span>
+                                        </span>
+                                    </div>
+                                    <div class="audio-time audio-duration-container">
+                                        <span class="audio-duration">
+                                            03:56
+                                        </span>
+                                    </div>
+                                    <div class="audio-button audio-volime-button adio-mute">
+                                        <button type="button" aria-controls="audio_0" title="Mute" aria-label="Mute"></button>
+                                    </div>
+                                    <a href="javascript:void(0);" class="audio-horizontal-volume-slider audio-mute" aria-label="Volume Slider" aria-valuemin="0" aria-valuemax="100" aria-valuenow="80" aria-valuetext="80%" role="slider" tabindex="0">
+                                        <span class="audio-offscreen">Use Up/Down Arrow keys to increase or decrease volume.</span>
+                                        <div class="audio-horizontal-volume-total"></div>
+                                        <div class="audio-horizontal-volume-current"></div>
+                                        <div class="audio-horizontal-volume-handle"></div>
+                                    </a>
+                                </div>
+                                <div class="audio-clear"></div>
                             </div>
-                            <!--/END TOP NEWS-->
-                            <!--LINK HEADLINES TOP NEWS-->
-                            <div class="headlines">
-                                <ul>
-                                    <li>
-                                        <div class="headlinesdate">
-                                            <div class="headlinesdm">
-                                                <div class="headlinesday">30</div>
-                                                <div class="headlinesmonth">12</div>
-                                            </div>
-                                            <div class="headlinesyear">16</div>
-                                        </div>
-                                        <div class="headlinestitle">
-                                            <a href="#">Trường Cao đẳng Công nghệ Thủ Đức trở thành thành viên thứ 334 của Hội Tin học TP. Hồ Chí Minh</a>                    
-                                        </div>
-                                    </li>
-                                    <li>
-                                        <div class="headlinesdate">
-                                            <div class="headlinesdm">
-                                                <div class="headlinesday">23</div>
-                                                <div class="headlinesmonth">12</div>
-                                            </div>
-                                            <div class="headlinesyear">16</div>
-                                        </div>
-                                        <div class="headlinestitle">
-                                            <a href="#">Để không thất nghiệp sau tốt nghiệp: Ngành công nghệ thông tin 'nóng' đến mức nào?</a>                    
-                                        </div>
-                                    </li>
-                                    <li>
-                                        <div class="headlinesdate">
-                                            <div class="headlinesdm">
-                                                <div class="headlinesday">20</div>
-                                                <div class="headlinesmonth">10</div>
-                                            </div>
-                                            <div class="headlinesyear">16</div>
-                                        </div>
-                                        <div class="headlinestitle">
-                                            <a href="#">Săn lùng kỹ sư công nghệ thông tin</a>                    
-                                        </div>
-                                    </li>
-                                </ul>
-                            </div>
-                            <!--/END LINK HEADLINES TOP NEWS-->
-                            <a class="newsall" href="#">Xem tất cả tin tức</a>
                         </div>
-                    </div>	
-                    <div class="divider"></div>
+                        <a href="#" class="download">Download MP3</a>
+                    </div>
                 </div>
             </div>
-            <!--/END RIGHT CONTENTS HOME-->
         </div>
     </div>
 </div>
