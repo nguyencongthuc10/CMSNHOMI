@@ -1,0 +1,105 @@
+.type-18 {
+  background: rgba(0,0,0,0.5);
+  color: #fff !important;
+}
+.type-18 .countdow {
+  text-align: center;
+  margin: 140px 0 0 0;
+}
+.type-18 #countdown_wp {
+  text-align: center;
+  margin: 30px 0 20px 0;
+}
+.type-18 #countdown_wp .container_count {
+  width: 60px;
+  display: inline-block;
+  margin-right: 5px;
+  text-align: center;
+}
+.type-18 #newsletter_wp {
+  background: rgba(0,0,0,0.5);
+  border-radius: 5px;
+  padding: 5px;
+  position: relative;
+}
+.type-18 .chanlamae {
+  background: rgba(0,0,0,0.5);
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  padding: 5px;
+  position: relative;
+}
+.type-18 #days,
+.type-18 #hours,
+.type-18 #minutes,
+.type-18 #seconds {
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  border: 1px solid #fff;
+  text-align: center;
+  width: 60px;
+  height: 60px;
+  font-size: 24px;
+  line-height: 56px;
+  font-family: "Helvetica Neue", Arial, sans-serif;
+  font-weight: 300;
+}
+.type-18 #footerXbanner18 .form-control {
+  height: 38px;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  -webkit-appearance: none;
+  padding-left: 8px;
+  background-color: #fff;
+}
+.type-18 #footerXbanner18 .nogutter {
+  padding-right: 0;
+  padding-left: 5px;
+}
+.type-18 #footerXbanner18 .btn-check {
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  background: #85c99d;
+  border: none;
+  color: #fff;
+  display: block;
+  line-height: 33px;
+  text-align: center;
+  margin-left: 3px;
+  font-size: 12px;
+  font-weight: bold;
+  width: 120px;
+  outline: none;
+  -webkit-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+}
+.type-18 .fotter ul {
+  margin: 0;
+  padding: 0 0 10px 0;
+  text-align: center;
+}
+.type-18 .fotter ul li {
+  display: inline-block;
+  margin: 0 5px 10px 5px;
+}
+.type-18 .fotter ul li a {
+  color: #fff;
+  text-align: center;
+  line-height: 34px;
+  display: block;
+  font-size: 16px;
+  width: 35px;
+  height: 35px;
+  border: 1px solid rgba(255,255,255,0.3);
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+}
+.type-18 .fotter ul li a:hover {
+  border: 1px solid #fff;
+  background: #fff;
+  color: #111;
+}
