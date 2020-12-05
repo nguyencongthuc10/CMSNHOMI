@@ -83,3 +83,13 @@
   color: #fff;
   background-color: #ed145b;
 }
+@media (max-width: 767px) {
+  .type-15 .one-left ul {
+    margin-bottom: 0;
+    line-height: 1.8;
+  }
+  .type-15 .one-left ul li {
+    float: none;
+    margin-right: 0;
+  }
+}

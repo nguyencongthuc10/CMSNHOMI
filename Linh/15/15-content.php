@@ -23,8 +23,10 @@ $url_path = str_replace('\\', '/', $url_path);
                         <div class="one_left">
                             <ul>
                                 <li>
-                                    <i class="fa fa-calendar-o"></i></i>December 20, 2020
-                                    <em><a href="#" title="admin" rel="author">admin</a></em>
+                                    <i class="fa fa-calendar-o"></i>December 20, 2020
+                                    <em>
+                                        <a href="#" title="admin" rel="author">admin</a>
+                                </em>
                                 </li>
                                 <li>
                                     <i class="fa fa-inbox"></i>
