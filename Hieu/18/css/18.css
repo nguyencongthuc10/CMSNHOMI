@@ -6,6 +6,12 @@
   text-align: center;
   margin: 140px 0 0 0;
 }
+.type-18 .countdow .timex {
+  position: relative;
+  min-height: 100%;
+  color: #000;
+  display: inline-block;
+}
 .type-18 #countdown_wp {
   text-align: center;
   margin: 30px 0 20px 0;

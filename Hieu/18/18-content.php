@@ -12,6 +12,7 @@ $url_path = str_replace('\\', '/', $url_path);
 <div class="type-18">
   <div class="container"> 
     <div class="countdow">
+    	
     	<div class="col-md-12">
     		<div id="logo">
     			<img src="https://shtheme.com/demosd/travelguidewp/wp-content/themes/travelguide/img/logo.png" width="170" height="30" alt="" data-retina="true">
@@ -49,16 +50,16 @@ $url_path = str_replace('\\', '/', $url_path);
     			<a href=""><i class="fa fa-facebook"> </i></a>
     		</li>
     		<li>
-    			<a href=""><i class="fa fa-facebook"> </i></a>
+    			<a href=""><i class="fa fa-twitter"> </i></a>
     		</li>
     		<li>
-    			<a href=""><i class="fa fa-facebook"> </i></a>
+    			<a href=""><i class="fa fa-google"> </i></a>
     		</li>
     		<li>
-    			<a href=""><i class="fa fa-facebook"> </i></a>
+    			<a href=""><i class="fa fa-instagram"> </i></a>
     		</li>
     		<li>
-    			<a href=""><i class="fa fa-facebook"> </i></a>
+    			<a href=""><i class="fa fa-pinterest"> </i></a>
 
     		</li>
     		<p>© travelguide 2017</p>
