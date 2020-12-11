@@ -16,20 +16,28 @@ $url_path = str_replace('\\', '/', $url_path);
 					<div class="type-11-filter">
 						<ul>
 							<li>
-								<a href="#" id="map_icon">Map view</a>
+								<a href="#" id="map_icon">
+									<i class="fal fa-map-marker-alt"></i>Map view
+									
+								</a>
 								
 							</li>
 							<li>
-								<a href="#" id="map_icon">Grid view</a>
+								<a href="#" id="map_icon"><i class="fal fa-table"></i>Grid view
+									
+								</a>
 							</li>
 							<li>
-								<a href="#" id="map_icon">List view</a>
+								<a href="#" id="map_icon"><i class="fal fa-list"></i>List view
+									
+								</a>
 							</li>
 						</ul>
 					</div>
 
 					<div class="type-11-filter-banner">
-						 <a data-toggle="collapse" href="#collapseFilters" aria-expanded="false" aria-controls="collapseFilters" class="a-filter">Filters </a>
+						 <a data-toggle="collapse" href="#collapseFilters" aria-expanded="false" aria-controls="collapseFilters" class="a-filter">
+						 Filters<i class="far fa-sliders-h"></i> </a>
 
 						
 						<div class="type-11-banner-child">

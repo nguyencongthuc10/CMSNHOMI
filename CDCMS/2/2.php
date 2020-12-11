@@ -21,8 +21,15 @@
         <meta charset="UTF-8">
        <meta name=”viewport” content=”width=device-width, initial-scale=1″>
         
+
         <link href="css/font-awesome.min.css" rel="stylesheet"/>
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+         
+
+        <link rel="stylesheet" href="http://www.asianalink.com/wp-content/themes/citytours/css/fontello/font/icon_set_1.woff?55361665">
+      
+        
+        <link rel="stylesheet" href="https://kendo.cdn.telerik.com/2020.3.1118/styles/kendo.default-v2.min.css"/>
         <link href="css/2.css" rel="stylesheet" type="text/css" />    
          <?php
         if (!class_exists('lessc')) {
@@ -34,6 +41,9 @@
     </head>
     <body>
          <?php  $dir_block.include'2-content.php'; ?>
+          <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
          <!-- javascrip swiper -->
     </body>
 </html>

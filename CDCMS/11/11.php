@@ -22,7 +22,8 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link href="css/bootstrap.min.css" rel="stylesheet"  />
         <link href="css/font-awesome.min.css" rel="stylesheet"/>
-        <link href="css/11.css" rel="stylesheet" type="text/css" />   
+        <link href="css/11.css" rel="stylesheet" type="text/css" />  
+         <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"/> 
         <link rel='stylesheet' id='ls-google-fonts-css'  href='http://fonts.googleapis.com/css?family=Lato:100,300,regular,700,900%7COpen+Sans:300%7CIndie+Flower:regular%7COswald:300,regular,700&#038;subset=latin%2Clatin-ext' type='text/css' media='all' /> 
 
          <?php

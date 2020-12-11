@@ -28,12 +28,14 @@
   transition: all 0.2s ease;
   outline: none;
 }
-.type-11 .type-11-filter ul li a#map_icon:before {
-  content: "\e01d";
+.type-11 .type-11-filter ul li a i {
   display: block;
   font-size: 24px;
   color: #1aa79b;
-  font-family: "ElegantIcons";
+  margin-bottom: 5px;
+}
+.type-11 .type-11-filter ul li a i:hover {
+  color: #ed145b;
 }
 .type-11 .type-11-filter-banner {
   background-color: #fff;
@@ -44,18 +46,14 @@
 }
 .type-11 .type-11-filter-banner .a-filter {
   display: block;
+  text-decoration: none;
   color: #333;
   position: relative;
   font-size: 16px;
 }
-.type-11 .type-11-filter-banner .a-filter:before {
-  font-family: "ElegantIcons" !important;
-  content: "\66";
+.type-11 .type-11-filter-banner .a-filter i {
+  float: right;
   font-size: 26px;
-  position: absolute;
-  right: 0;
-  top: 0;
-  line-height: 1;
 }
 .type-11 .type-11-filter-banner .type-11-banner-child h6 {
   border-top: 1px solid #ddd;
@@ -166,7 +164,7 @@
   position: absolute;
   height: 12px;
   display: block;
-  top: 209px;
+  top: 204px;
   width: 0;
   left: 0;
   background-position: 0 -60px;
@@ -175,7 +173,7 @@
   background: url(../images/sprite-skin-flat.png) repeat-x;
   width: 16px;
   height: 18px;
-  top: 205px;
+  top: 201px;
   background-position: 0 -120px;
   position: absolute;
 }

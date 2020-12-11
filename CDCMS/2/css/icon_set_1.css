@@ -1,4 +1,23 @@
-
+@font-face {
+  font-family: 'icon_set_1';
+  src: url('../font/icon_set_1.eot?55361665');
+  src: url('../font/icon_set_1.eot?55361665#iefix') format('embedded-opentype'),
+       url('../font/icon_set_1.woff?55361665') format('woff'),
+       url('../font/icon_set_1.ttf?55361665') format('truetype'),
+       url('../font/icon_set_1.svg?55361665#icon_set_1') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+/* Chrome hack: SVG is rendered more smooth in Windozze. 100% magic, uncomment if you need it. */
+/* Note, that will break hinting! In other OS-es font will be not as sharp as it could be */
+/*
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: 'icon_set_1';
+    src: url('../font/icon_set_1.svg?55361665#icon_set_1') format('svg');
+  }
+}
+*/
  
  [class^="icon_set_1_"]:before, [class*="icon_set_1_"]:before {
   font-family: "icon_set_1";
@@ -134,112 +153,3 @@
 .icon_set_1_icon-98:before { content: '\e803'; } /* '' */
 .icon_set_1_icon-99:before { content: '\e804'; } /* '' */
 .icon_set_1_icon-100:before { content: '\e805'; } /* '' */
-body{
-	    font-size: 14px !important;
-    line-height: 1.5 !important;
-    color: #555 !important;
-    background-color: #f5f5f5;
-    font-family: "Roboto", Helvetica, Arial, sans-serif !important;
-}
-.type-2{
-	margin-top: 50px;
-	.type-2-header{
-
-		text-align: center;
-		width: 70%;
-		margin: 0 auto;
-		h3{
-			font-weight: 300;
-		    color: #222;
-		    font-size: 38px;
-		    margin: 0 0 10px 0;
-		    padding: 0;
-		}
-
-		.type-2-span0
-		{
-			color: #ed145b;
-    		font-weight: 300;
-		}
-		p {
-			font-size: 18px;
-		    font-weight: 300;
-		    opacity: 1;
-
-		}
-		
-		.type-2-span2{
-			width: 120px;
-		    height: 2px;
-		    background-color: #e1e1e1;
-		    display: block;
-		    margin: auto;
-			em{
-			    width: 60px;
-			    height: 2px;
-			    background-color: #ed145b;
-			    display: block;
-			    margin: auto;
-			}
-		}
-	}
-
-	.type-2-banner{
-		.type-2-bao{
-			background: #fff;		 
-			 transition: all 0.2s ease-in-out;
-		    border-radius: 5px;
-		    border: 1px solid #ededed;
-		    margin-bottom: 35px;
-		    padding: 40px 25px 0 25px;
-		    text-align: center;
-		    position: relative;
-		    font-size: 14px;
-		    color: #666;
-		    min-height: 235px;
-		    display: block;
-		   
-			    span{
-				border-radius: 50%;
-			    border: 1px solid #ededed;
-			    background-color: #fff;
-			    position: absolute;
-			    top: -25px;
-			    display: block;
-			    width: 50px;
-			    height: 50px;
-			    line-height: 48px;
-			    font-weight: bold;
-			    font-size: 16px;
-			    left: 50%;
-			    margin-left: -25px;
-				}
-
-				p{
-					padding-bottom: 20px;
-				}
-
-				i{
-				    font-size: 75px;
-				    margin: 0;
-				    padding: 0;
-				    line-height: 1.3;
-				    color: #0ea598;
-				    transition: all 0.5s ease;
-
-				}
-				
-
-
-			}
-			.type-2-bao:hover{
-				    transform: translate(0, -10px);
-
-			}
-		}
-
-		
-}
-
-
-		
