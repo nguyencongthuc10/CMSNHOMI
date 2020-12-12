@@ -9,9 +9,9 @@ $url_path = str_replace('\\', '/', $url_path);
 ?>
 <div class="type-14">
   	<div class="type-14-bao">
-  		<h3>What Clients say
-  			<p>Id tale utinam ius, an mei omnium recusabo iracundia.</p>
+  		<h3>What Clients say 			
   		</h3>
+  		<p>Id tale utinam ius, an mei omnium recusabo iracundia.</p>
   		<div class="container">
   			<div class="row">
   				<div class="col-md-8 col-md-offset-2">
@@ -64,5 +64,6 @@ $url_path = str_replace('\\', '/', $url_path);
   			</div>
   		</div>
   	</div> 
+</div>
 </div>
 

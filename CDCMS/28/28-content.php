@@ -22,7 +22,7 @@ $url_path = str_replace('\\', '/', $url_path);
                               <i class="fal fa-angle-right"></i>
                               </a>
                             </li>
-                            <li><a href="#doc" class="" class="fas fa-angle-right">Documents required
+                            <li><a href="#doc" class="">Documents required
                               <i class="fal fa-angle-right"></i>
                             </a>
                             </li>
@@ -217,7 +217,7 @@ $url_path = str_replace('\\', '/', $url_path);
                             <a class="accordion-toggle" data-toggle="collapse" data-parent="#preorder" href="#collapseOne_preorder" aria-expanded="true">Anim pariatur cliche reprehenderit?<i class="fal fa-plus-circle"></i></a>
                           </h4>
                         </div>
-                        <div id="collapseOne_preorder" class="panel-collapse collapse in" aria-expanded="true" style="">
+                        <div id="collapseOne_preorder" class="panel-collapse collapse">
                             <div class="panel-body">
                                 Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
                             </div>
@@ -229,7 +229,7 @@ $url_path = str_replace('\\', '/', $url_path);
                             <a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#preorder" href="#collapseTwo_preorder" aria-expanded="false">Parsnip lotus root celery?<i class="fal fa-plus-circle"></i></a>
                           </h4>
                         </div>
-                        <div id="collapseTwo_preorder" class="panel-collapse collapse" aria-expanded="false">
+                        <div id="collapseTwo_preorder" class="panel-collapse collapse">
                             <div class="panel-body">
                                 Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
                             </div>
@@ -241,13 +241,13 @@ $url_path = str_replace('\\', '/', $url_path);
                             <a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#preorder" href="#collapseThree_preorder" aria-expanded="false">Beet greens peanut salad?<i class="fal fa-plus-circle"></i></a>
                           </h4>
                         </div>
-                        <div id="collapseThree_preorder" class="panel-collapse collapse" aria-expanded="false">
+                        <div id="collapseThree_preorder" class="panel-collapse collapse" >
                             <div class="panel-body">
                                 Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
                             </div>
                         </div>
                     </div>
-                </div>
+        </div>
         <h3>Register</h3>
         <div class="panel-group" id="register_2">
                     <div class="panel panel-default">
