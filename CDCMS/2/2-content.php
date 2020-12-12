@@ -71,7 +71,7 @@ $url_path = str_replace('\\', '/', $url_path);
   			<div class="col-md-3 col-sm-6">
   				<div class="type-2-bao">
 					<span class="type-2-so">24</span>
-	  				<i class="icon_set_1_icon-41"></i>
+	  				<i class="fal fa-shopping-bag"></i>
 	  				<h3>Shops</h3>
 	  				<p>Pri melius fuisset at, pro legimus corpora no</p>
 				</div>

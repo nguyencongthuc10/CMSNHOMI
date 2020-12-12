@@ -21,15 +21,13 @@
         <meta charset="UTF-8">
        <meta name=”viewport” content=”width=device-width, initial-scale=1″>
         
+<link rel='dns-prefetch' href='//maxcdn.bootstrapcdn.com' />
+<link rel='dns-prefetch' href='//fonts.googleapis.com' />
 
         <link href="css/font-awesome.min.css" rel="stylesheet"/>
+        <link href="css/all_icons.min.css" rel="stylesheet"/>
+        <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"/> 
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
-         
-
-        <link rel="stylesheet" href="http://www.asianalink.com/wp-content/themes/citytours/css/fontello/font/icon_set_1.woff?55361665">
-      
-        
-        <link rel="stylesheet" href="https://kendo.cdn.telerik.com/2020.3.1118/styles/kendo.default-v2.min.css"/>
         <link href="css/2.css" rel="stylesheet" type="text/css" />    
          <?php
         if (!class_exists('lessc')) {
