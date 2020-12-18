@@ -1,195 +1,151 @@
-@import "../../var/var.less";
-.type-139 {
-    overflow: hidden;
-    .sidebar{
-        padding: 0;
-    }
-    .hover(){
-        color:@color_Cylindrical_coordinate;
-        transition: all 0.5s ease;
-        text-decoration: none;
-    }
-    .news a {
-        color: @color_white;
-    }
-    a:hover, a:focus {
-        text-decoration: none; 
+.type-24 {
+    .container {
+        padding-left : 15px; //trái
+        padding-right: 15px; //phải
+        margin-left  : auto;
+        margin-right : auto;
+
     }
 
-    /*------------------GENERAL--------------------*/
-    .panel {
-        background: none;
-        box-shadow: none;
-    }
-    .panel-default {
-        border: none;
-    }   
-    .panel-heading {
-        border: none !important;
-        background: none !important;
-        padding: 2rem 0 0;
-        h2 {
-            font-weight: bold;
-            font-size: @font-size-heading-5 + 1;
-            span {
-                font-weight: normal;
-                font-size: @font-size-heading-5 + 1;
-            }
-        }
-    }
-    /*------------------END GENERAL--------------------*/
+    .magrin_travel {
+        .row {
+            margin: 60px 0px;
 
-    /*------------------TOP NEWS--------------------*/
-    .news {
-        background: none;
-        padding: 0;
-        color: @color_white;
-        .topnews {
-            background: @color_background;
-            padding: 3rem .5rem 3rem .5rem;
-            .row .row {
-                margin: 0 !important;
-                .col-md-6:first-child {
-                    padding-right: 0;
-                    border-right: 0.1rem solid #86d8da;
-                    padding-left: 0;
-                }
-            }
-            .img{
-                a{
-                    -webkit-mask: url(../images/hinh1.jpg) center center;
-                    .hover-img;
-                    .topnewsthumb img {
-                        width: 100%;
-                        max-width: 100%;
+            .shop {
+                .box {
+                    border          : 1px solid #e8e7e7;
+                    padding         : 20px;
+                    margin          : 30px 0px;
+                    background-color: #fff;
+                    float           : left;
+                    height          : 540px;
+
+                    .item {
+                        .picture-home {
+                            a {
+                                color          : #1aa79b;
+                                text-decoration: none;
+                                transition     : all 0.2s ease;
+                                outline        : none;
+                            }
+
+                            .picturehover {
+                                margin-bottom: 0px;
+
+                                .sale {
+                                    background-color: #1aa79b;
+                                    z-index         : 0;
+                                    top             : 3em;
+                                    left            : 2em;
+                                    min-height      : 3.236em;
+                                    min-width       : 3.236em;
+                                    padding         : 0.202em;
+                                    font-weight     : 700;
+                                    position        : absolute;
+                                    text-align      : center;
+                                    line-height     : 3.236;
+                                    margin          : 0px 0px;
+                                    border-radius   : 100%;
+                                    font-size       : .875em;
+                                    color           : #fff;
+                                }
+
+                                a {
+                                    color: #1aa79b;
+                                }
+                            }
+                        }
                     }
 
-                }
-            }
-            h4 {
-                font-weight: bold;
-                font-size: @font-size-heading-5;
-                line-height: 2rem;
-                a {
-                    color: @color_white;
-                    &:hover{
-                        .hover;
+                    .content {
+                        width: 300px;
+
+                        a {
+                            color          : #1aa79b;
+                            text-decoration: none;
+                            transition     : all 0.2s ease;
+                            outline        : none;
+                        }
+
+                        .star-rating {
+                            margin-top : 7px;
+                            float      : right;
+                            position   : relative;
+                            height     : 1em;
+                            font-size  : 1em;
+                            line-height: 1;
+                        }
+
+                        .price {
+                            del {
+                                display: inline-flex; //sắp xếp bố cục hợp lý, tắt dấu gạch ngăn cách.
+
+                                .amount-price {
+                                    font-size: 18px;
+                                }
+                            }
+
+                            ins {
+                                text-decoration: unset; //tắt gạch chân
+
+                                .amount-price {
+                                    padding  : 2px;
+                                    font-size: 21px;
+
+                                }
+                            }
+
+                        }
+
+                        p {
+                            margin: 10px 0px 15px 0px;
+                        }
+
+                        .prewiew {
+                            margin-top: 15px;
+
+                            .cart {
+                                background   : #fff;
+                                border       : 2px solid #1aa79b;
+                                color        : #1aa79b;
+                                padding      : 7px 20px;
+                                font-weight  : 600;
+                                line-height  : 1;
+                                border-radius: 30px;
+                                font-size    : 100%;
+
+                            }
+
+                            .cart:hover {
+                                background-color: #1aa79b;
+                                color           : #fff;
+                            }
+                        }
                     }
                 }
             }
-            .topnewsdesc{
-                a:hover{
-                    .hover;
-                }
-            }
         }
-        .topnewstime {
-            text-align: center;
-            .topnewsdate {
-                font-family: 'Prata', serif;
-                font-size: @font-size-heading-5 + 2.5;
-                line-height: 2.5rem;
-                margin-left: 1.25rem;
-            }
-            .topnewsmonth {
-                text-transform: uppercase;
-                font-size: @font-size-heading-5 - 0.5;
-                margin-left: 1rem;
-            }
-        }
-    }
-    /*------------------/END TOP NEWS--------------------*/
 
-    /*------------------LINK HEADLINES TOP NEWS--------------------*/
-    .headlines {
-        background: #56bdbf;
-        overflow: hidden;
-        padding: 2rem 3rem;
-        ul {
-            list-style: none;
-            margin: 0;
-            padding: 0;
-            li {
-                overflow: hidden;
-                display: table;
-                margin-bottom: 0.5rem;
-                width: 100%;
-                .headlinestitle {
-                    display: table-cell;
-                    vertical-align: middle;
-                    width: 85%;
-                    a:hover{
-                        .hover;
-                    }
-                }
-            }
-        }
-        .headlinesdate {
-            font-size: @font-size-heading-5;
-            width: 15%;
-            min-width: 5.5rem;
-            display: table-cell;
-            vertical-align: middle;
-            .headlinesday {
-                border-bottom: 0.1rem solid @color_white;
-            }
-            .headlinesyear {
-                line-height: 4.75rem;
-                float: left;
-                margin-left: 0.3rem;
-            }
-        }
     }
-    .headlinesdate 
-    .headlinesdm, 
-    .news 
-    .headlines 
-    .headlinesdate, 
-    .headlinesdate {
-        float: left;
-        font-family: 'Prata', serif;
-    }
-    .headlinesdate
-    .headlinesday,
-    .news
-    .headlines
-    .headlinesmonth {
-        line-height: 2rem;
-    } 
-    /*------------------/END LINK HEADLINES TOP NEWS--------------------*/
 
-    /*------------------LINK SEE ALL NEWS--------------------*/
-    .newsall {
-        display: block;
-        padding: 1rem;
-        text-align: center;
-        background: #62c6c8;
-        text-transform: uppercase;
-        font-weight: bold;
-    }
-    a:hover{
-        .hover;
-    }
-    /*------------------/END LINK SEE ALL NEWS--------------------*/
-    /*----------REPONSIVE-------------*/
-    @media (min-width: @md-992){
-        .sidebar{
-            padding: 0;
+    @media screen {
+        .container {
+            .col-md-4 {
+                position: relative;
+                min-height: 1px;
+                padding-right: 15px;
+                padding-left: 15px;
+            }
         }
     }
-    @media (min-width: @sm-768){
-        .sidebar{
-            width: 96rem;
+
+    @media (min-width:992px) {
+        .container {
+           .col-md-4{
+               width: 33.33333333%;
+           }
         }
     }
-    @media (max-width: @md-992){
-        .bottom{
-            margin-bottom: 1.5rem;
-        }
-    }
-    @media (max-width: @xs-480){
-        .sidebar{
-            padding: 0;
-        }
-    }
+
+
 }

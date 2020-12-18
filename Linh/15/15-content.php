@@ -12,7 +12,7 @@ $url_path = $url_host . $matches[1][0];
 $url_path = str_replace('\\', '/', $url_path);
 ?>
 <div class="type-15">
-    <div class="container blog">
+    <div class="container blog" style="transform: none;">
         <div class="row">
             <div class="col-md-9">
                 <div class="one">
@@ -26,7 +26,7 @@ $url_path = str_replace('\\', '/', $url_path);
                                     <i class="fa fa-calendar-o"></i>December 20, 2020
                                     <em>
                                         <a href="#" title="admin" rel="author">admin</a>
-                                </em>
+                                    </em>
                                 </li>
                                 <li>
                                     <i class="fa fa-inbox"></i>
@@ -59,7 +59,7 @@ $url_path = str_replace('\\', '/', $url_path);
                         <div class="one_left">
                             <ul>
                                 <li>
-                                    <i class="fa fa-calendar-o"></i></i>December 20, 2020
+                                    <i class="fa fa-calendar-o"></i>December 20, 2020
                                     <em><a href="#" title="admin" rel="author">admin</a></em>
                                 </li>
                                 <li>
@@ -93,7 +93,7 @@ $url_path = str_replace('\\', '/', $url_path);
                         <div class="one_left">
                             <ul>
                                 <li>
-                                    <i class="fa fa-calendar-o"></i></i>December 20, 2020
+                                    <i class="fa fa-calendar-o"></i>December 20, 2020
                                     <em><a href="#" title="admin" rel="author">admin</a></em>
                                 </li>
                                 <li>
@@ -122,3 +122,4 @@ $url_path = str_replace('\\', '/', $url_path);
             </div>
         </div>
     </div>
+</div>

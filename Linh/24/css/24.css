@@ -1,180 +1,109 @@
-@import "../../var/var.less";
-.type-139 {
-  overflow: hidden;
+.type-24 .container {
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
 }
-.type-139 .sidebar {
-  padding: 0;
+.type-24 .magrin_travel .row {
+  margin: 60px 0px;
 }
-.type-139 .news a {
-  color: ;
-}
-.type-139 a:hover,
-.type-139 a:focus {
-  text-decoration: none;
-}
-.type-139 .panel {
-  background: none;
-  box-shadow: none;
-}
-.type-139 .panel-default {
-  border: none;
-}
-.type-139 .panel-heading {
-  border: none !important;
-  background: none !important;
-  padding: 2rem 0 0;
-}
-.type-139 .panel-heading h2 {
-  font-weight: bold;
-  font-size: 1;
-}
-.type-139 .panel-heading h2 span {
-  font-weight: normal;
-  font-size: 1;
-}
-.type-139 .news {
-  background: none;
-  padding: 0;
-  color: ;
-}
-.type-139 .news .topnews {
-  background: ;
-  padding: 3rem .5rem 3rem .5rem;
-}
-.type-139 .news .topnews .row .row {
-  margin: 0 !important;
-}
-.type-139 .news .topnews .row .row .col-md-6:first-child {
-  padding-right: 0;
-  border-right: 0.1rem solid #86d8da;
-  padding-left: 0;
-}
-.type-139 .news .topnews .img a {
-  -webkit-mask: url(../images/hinh1.jpg) center center;
-}
-.type-139 .news .topnews .img a .topnewsthumb img {
-  width: 100%;
-  max-width: 100%;
-}
-.type-139 .news .topnews h4 {
-  font-weight: bold;
-  font-size: ;
-  line-height: 2rem;
-}
-.type-139 .news .topnews h4 a {
-  color: ;
-}
-.type-139 .news .topnews h4 a:hover {
-  color: ;
-  transition: all 0.5s ease;
-  text-decoration: none;
-}
-.type-139 .news .topnews .topnewsdesc a:hover {
-  color: ;
-  transition: all 0.5s ease;
-  text-decoration: none;
-}
-.type-139 .news .topnewstime {
-  text-align: center;
-}
-.type-139 .news .topnewstime .topnewsdate {
-  font-family: 'Prata', serif;
-  font-size: 2.5;
-  line-height: 2.5rem;
-  margin-left: 1.25rem;
-}
-.type-139 .news .topnewstime .topnewsmonth {
-  text-transform: uppercase;
-  font-size:  - 0.5;
-  margin-left: 1rem;
-}
-.type-139 .headlines {
-  background: #56bdbf;
-  overflow: hidden;
-  padding: 2rem 3rem;
-}
-.type-139 .headlines ul {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-}
-.type-139 .headlines ul li {
-  overflow: hidden;
-  display: table;
-  margin-bottom: 0.5rem;
-  width: 100%;
-}
-.type-139 .headlines ul li .headlinestitle {
-  display: table-cell;
-  vertical-align: middle;
-  width: 85%;
-}
-.type-139 .headlines ul li .headlinestitle a:hover {
-  color: ;
-  transition: all 0.5s ease;
-  text-decoration: none;
-}
-.type-139 .headlines .headlinesdate {
-  font-size: ;
-  width: 15%;
-  min-width: 5.5rem;
-  display: table-cell;
-  vertical-align: middle;
-}
-.type-139 .headlines .headlinesdate .headlinesday {
-  border-bottom: 0.1rem solid ;
-}
-.type-139 .headlines .headlinesdate .headlinesyear {
-  line-height: 4.75rem;
+.type-24 .magrin_travel .row .shop .box {
+  border: 1px solid #e8e7e7;
+  padding: 20px;
+  margin: 30px 0px;
+  background-color: #fff;
   float: left;
-  margin-left: 0.3rem;
+  height: 540px;
 }
-.type-139 .headlinesdate 
-    .headlinesdm,
-.type-139 .news 
-    .headlines 
-    .headlinesdate,
-.type-139 .headlinesdate {
-  float: left;
-  font-family: 'Prata', serif;
-}
-.type-139 .headlinesdate
-    .headlinesday,
-.type-139 .news
-    .headlines
-    .headlinesmonth {
-  line-height: 2rem;
-}
-.type-139 .newsall {
-  display: block;
-  padding: 1rem;
-  text-align: center;
-  background: #62c6c8;
-  text-transform: uppercase;
-  font-weight: bold;
-}
-.type-139 a:hover {
-  color: ;
-  transition: all 0.5s ease;
+.type-24 .magrin_travel .row .shop .box .item .picture-home a {
+  color: #1aa79b;
   text-decoration: none;
+  transition: all 0.2s ease;
+  outline: none;
 }
-@media (min-width: ) {
-  .type-139 .sidebar {
-    padding: 0;
+.type-24 .magrin_travel .row .shop .box .item .picture-home .picturehover {
+  margin-bottom: 0px;
+}
+.type-24 .magrin_travel .row .shop .box .item .picture-home .picturehover .sale {
+  background-color: #1aa79b;
+  z-index: 0;
+  top: 3em;
+  left: 2em;
+  min-height: 3.236em;
+  min-width: 3.236em;
+  padding: 0.202em;
+  font-weight: 700;
+  position: absolute;
+  text-align: center;
+  line-height: 3.236;
+  margin: 0px 0px;
+  border-radius: 100%;
+  font-size: .875em;
+  color: #fff;
+}
+.type-24 .magrin_travel .row .shop .box .item .picture-home .picturehover a {
+  color: #1aa79b;
+}
+.type-24 .magrin_travel .row .shop .box .content {
+  width: 300px;
+}
+.type-24 .magrin_travel .row .shop .box .content a {
+  color: #1aa79b;
+  text-decoration: none;
+  transition: all 0.2s ease;
+  outline: none;
+}
+.type-24 .magrin_travel .row .shop .box .content .star-rating {
+  margin-top: 7px;
+  float: right;
+  position: relative;
+  height: 1em;
+  font-size: 1em;
+  line-height: 1;
+}
+.type-24 .magrin_travel .row .shop .box .content .price del {
+  display: inline-flex;
+}
+.type-24 .magrin_travel .row .shop .box .content .price del .amount-price {
+  font-size: 18px;
+}
+.type-24 .magrin_travel .row .shop .box .content .price ins {
+  text-decoration: unset;
+}
+.type-24 .magrin_travel .row .shop .box .content .price ins .amount-price {
+  padding: 2px;
+  font-size: 21px;
+}
+.type-24 .magrin_travel .row .shop .box .content p {
+  margin: 10px 0px 15px 0px;
+}
+.type-24 .magrin_travel .row .shop .box .content .prewiew {
+  margin-top: 15px;
+}
+.type-24 .magrin_travel .row .shop .box .content .prewiew .cart {
+  background: #fff;
+  border: 2px solid #1aa79b;
+  color: #1aa79b;
+  padding: 7px 20px;
+  font-weight: 600;
+  line-height: 1;
+  border-radius: 30px;
+  font-size: 100%;
+}
+.type-24 .magrin_travel .row .shop .box .content .prewiew .cart:hover {
+  background-color: #1aa79b;
+  color: #fff;
+}
+@media screen {
+  .type-24 .container .col-md-4 {
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
   }
 }
-@media (min-width: ) {
-  .type-139 .sidebar {
-    width: 96rem;
-  }
-}
-@media (max-width: ) {
-  .type-139 .bottom {
-    margin-bottom: 1.5rem;
-  }
-}
-@media (max-width: ) {
-  .type-139 .sidebar {
-    padding: 0;
+@media (min-width: 992px) {
+  .type-24 .container .col-md-4 {
+    width: 33.33333333%;
   }
 }
