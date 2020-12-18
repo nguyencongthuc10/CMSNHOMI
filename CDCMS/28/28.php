@@ -20,10 +20,12 @@
         <title>module 28</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link href="css/bootstrap.min.css" rel="stylesheet"  />
-        <link href="css/font-awesome.min.css" rel="stylesheet"/>
-        <link href="css/28.css" rel="stylesheet" type="text/css" />    
-         <?php
+        <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+       <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"/>
+       <link href="css/font-awesome.min.css" rel="stylesheet"/> 
+        <link href="css/28.css" rel="stylesheet" type="text/css" />  
+         
+     <?php
         if (!class_exists('lessc')) {
             include ('./libs/lessc.inc.php');
         }
@@ -33,6 +35,10 @@
     </head>
     <body>
          <?php  $dir_block.include'28-content.php'; ?>
+
+          <script src="js/jquery-3.5.1.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+          <script src="js/28.js"></script>
          <!-- javascrip swiper -->
     </body>
-</html>
+                    

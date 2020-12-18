@@ -21,10 +21,10 @@ $url_path = str_replace('\\', '/', $url_path);
 							     
 
 							      <ul class="nav nav-tabs">
-							        <li  class="active"><a href="#home" aria-controls="home"  role="tab" data-toggle="tab">Home</a></li>
-							        <li><a href="#profile" aria-controls="profile"  role="tab" data-toggle="tab">Profile</a></li>
-							        <li><a href="#messages" aria-controls="messages" role="tab" data-toggle="tab">Messages</a></li>
-							        <li><a href="#settings" aria-controls="settings"  role="tab" data-toggle="tab">Settings</a></li>
+							        <li  class="active"><a href="#home" aria-controls="home"  data-toggle="tab">Home</a></li>
+							        <li><a href="#profile" aria-controls="profile"   data-toggle="tab">Profile</a></li>
+							        <li><a href="#messages" aria-controls="messages"  data-toggle="tab">Messages</a></li>
+							        <li><a href="#settings" aria-controls="settings" data-toggle="tab">Settings</a></li>
 							      </ul>
 
 							    <!-- Tab panes -->

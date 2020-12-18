@@ -22,17 +22,27 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link href="css/bootstrap.min.css" rel="stylesheet"  />
         <link href="css/font-awesome.min.css" rel="stylesheet"/>
-        <link href="css/11.css" rel="stylesheet" type="text/css" />    
+        <link href="css/11.css" rel="stylesheet" type="text/css" />  
+         <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"/> 
+
          <?php
+
         if (!class_exists('lessc')) {
             include ('./libs/lessc.inc.php');
+
         }
         $less = new lessc;
         $less->compileFile('less/11.less', 'css/11.css');
         ?>
     </head>
     <body>
+
          <?php  $dir_block.include'11-content.php'; ?>
-         <!-- javascrip swiper -->
+         <!-- javascrip swiper --> 
+         <script src="js/11.js"></script>
+         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="js/switchery.min.js"></script>
     </body>
+  
+     
 </html>
