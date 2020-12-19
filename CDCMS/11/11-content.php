@@ -59,8 +59,8 @@ $url_path = str_replace('\\', '/', $url_path);
 									 </span>
 
 									 <span class="type-11-irs-bar" style="left: 22.1719%; width: 43.2881%;"></span>
-									 <span class="type-11-irs-slider from" style="left: 19.552%;"></span>
-									 <span class="type-11-irs-slider to type_last" style="left: 62.8401%;"></span>
+									 <span class="type-11-irs-slider from" ></span>
+									 <span class="type-11-irs-slider to type_last" ></span>
 
 									  <input type="text" id="range" name="duration_range" value="" class="type-11-input">
 									</div>
