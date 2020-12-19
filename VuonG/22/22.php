@@ -27,11 +27,15 @@
         <link href="<?php echo $url_path ?>/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
         <link href="<?php echo $url_path ?>/css/1648.css" rel="stylesheet" type="text/css"/>
         <link rel="stylesheet" href="<?php echo $url_path ?>/css/font-awesome.min.css">
-          <link rel="stylesheet" href="<?php echo $url_path ?>/css/font-awesome.css">
+        <link rel="stylesheet" href="<?php echo $url_path ?>/css/font-awesome.css">
+            <link rel="stylesheet" href="https://kendo.cdn.telerik.com/2020.3.1118/styles/kendo.default-v2.min.css"/>
+            <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+            <script src="https://kendo.cdn.telerik.com/2020.3.1118/js/kendo.all.min.js"></script>
+
         <script src="<?php echo $url_path ?>/js/jquery.min.js"></script>
         <script src="<?php echo $url_path ?>/js/bootstrap.min.js"></script>
     </head>
     <body>
-      <?php include '1648-content.php';  ?>
+      <?php include '22-content.php';  ?>
 </body>
 </html>

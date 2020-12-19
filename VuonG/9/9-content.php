@@ -14,17 +14,18 @@
              <div class="col-sm-6">
                  <h3>Get More Features<span>with a Premium plan</span></h3>
                  <ul>
-                     <li><i class="icon_headphones"></i><strong>Listen or Download Audio Guides</strong>Directly from
-                         your Smartphone/Tablet, Online or Offline.</li>
+                     <li><i class="icon_headphones"></i>
+                        <strong>Listen or Download Audio Guides</strong> 
+                        Directly from your Smartphone/Tablet, Online or Offline.</li>
 
-                     <li><i class="icon_documents_alt"></i><strong>Read or Download Pdf Travel Guides</strong>Directly
-                         from your Smartphone/Tablet, Online or Offline.</li>
+                     <li><i class="icon_documents_alt"></i><strong>Read or Download Pdf Travel Guides</strong>
+                     Directly from your Smartphone/Tablet, Online or Offline.</li>
 
-                     <li><i class="icon_like"></i><strong>Special Prices</strong>For Restaurants, Hotels, Bars and
-                         Cocktail bars....</li>
+                     <li><i class="icon_like"></i><strong>Special Prices</strong>
+                     For Restaurants, Hotels, Bars and Cocktail bars....</li>
 
-                     <li><i class="icon_lifesaver"></i><strong>Premium H24 Support</strong>Contact us via email, phone
-                         or chat!</li>
+                     <li><i class="icon_lifesaver"></i><strong>Premium H24 Support</strong>
+                     Contact us via email, phone or chat!</li>
 
                  </ul>
              </div>

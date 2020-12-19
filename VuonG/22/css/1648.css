@@ -18,6 +18,7 @@ body {
   color: #222;
 }
 .container .row .box_style_general .the-icons {
+  padding-top: 5px;
   font-size: 12px;
   line-height: 32px;
 }
@@ -27,6 +28,9 @@ body {
 .container .row .box_style_general .the-icons i {
   font-size: 26px;
 }
-.container .row .box_style_general .the-icons .icon-spin3:before {
-  content: '\e800';
+.container .row .box_style_general .the-icons .my-custom-icon-class:before {
+  content: '\e13a';
+}
+.container .row .box_style_general .the-icons .icon-spin5:before {
+  content: '\f110';
 }
