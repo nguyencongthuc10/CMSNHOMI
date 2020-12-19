@@ -13,26 +13,38 @@ if (!class_exists('lessc')) {
 }
 
 $less = new lessc;
-$less->compileFile('less/139.less', 'css/139.css');
+$less->compileFile('less/24.less', 'css/24.css');
 ?>
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <title>139</title>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link href="<?php echo $url_path ?>/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
-        <link href="<?php echo $url_path ?>/css/139.css" rel="stylesheet" type="text/css" />
-        
-        <?php
-        if (!class_exists('lessc')) {
-            include ('./libs/lessc.inc.php');
+
+<head>
+    <title>139</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="<?php echo $url_path ?>/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <link href="<?php echo $url_path ?>/css/24.css" rel="stylesheet" type="text/css" />
+    <link href="<?php echo $url_path ?>/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
+    <?php
+    if (!class_exists('lessc')) {
+        include('./libs/lessc.inc.php');
+    }
+    $less = new lessc;
+    $less->compileFile('less/24.less', 'css/24.css');
+    ?>
+    <style>
+        .checked {
+            color: #f2b827;
         }
-        $less = new lessc;
-        $less->compileFile('less/139.less', 'css/139.css');
-        ?>
-    </head>
-    <body >
-        <?php include '../139-demo/139-content.php'; ?>
-    </body>
+        .checkeds{
+            color: #f2b827;
+        }
+    </style>
+</head>
+
+<body>
+
+    <?php include '../24/24-content.php'; ?>
+</body>
+
 </html>

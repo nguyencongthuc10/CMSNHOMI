@@ -17,7 +17,7 @@ $url_path = str_replace('\\', '/', $url_path);
             <div class="col-md-8 col-md-offset-2">
                 <div class="general">
                     <img src="images/audio_1.jpg" alt="audio_1" width="900" height="300" class="img-responsive">
-                    <div class="a_audio">
+                    <div class="audio">
                         <h3>General info an history</h3>
                         <p>Mea primis sapientem aliquando cu, ubique vocibus euripidis eam te, usu ei soluta prodesset conceptam. Ad nostrud appareat recteque usu. Vis id purto omittantur, vim cu ferri insolens deserunt.</p>
                         <span class="audio-offscreen">Audio Player</span>
@@ -36,8 +36,11 @@ $url_path = str_replace('\\', '/', $url_path);
                                     </div>
                                     <div class="audio-time audio-curenttime-container" role="timer" aria-live="off">
                                         <span class="audio-currenttime">00:00</span>
+
                                     </div>
                                     <div class="audio-time-rail" style="width:114px;">
+
+
                                         <span class="audio-time-total audio-time-slider" style="width: 104px;" aria-label="Time Slider" aria-valuemax="0" aria-valuemax="100" aria-valuenow="0" aria-valuetext="00:00" role="slider" tabindex="0">
                                             <span class="audio-time-buffering"></span>
                                             <span class="audio-time-current"></span>
@@ -59,16 +62,17 @@ $url_path = str_replace('\\', '/', $url_path);
                                         <span class="audio-offscreen">Use Up/Down Arrow keys to increase or decrease volume.</span>
                                         <div class="audio-horizontal-volume-total"></div>
                                         <div class="audio-horizontal-volume-current"></div>
-                                        <div class="audio-horizontal-volume-handle"></div>
                                     </a>
+                                    <div class="mejs-horizontal-volume-current" style="width: 40px;"></div>
+                                    <div class="mejs-horizontal-volume-handle" style="left: 27px;"></div></a>
                                 </div>
-                                <div class="audio-clear"></div>
+                                <div class="mejs-clear"></div>
                             </div>
                         </div>
                         <a href="#" class="download">Download MP3</a>
-                    </div>
+                         </div>
                 </div>
+                <!--/END RIGHT CONTENTS HOME-->
             </div>
-        </div>
+        </div>         
     </div>
-</div>

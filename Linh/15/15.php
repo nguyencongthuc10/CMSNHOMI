@@ -17,15 +17,13 @@ $less->compileFile('less/15.less', 'css/15.css');
 ?>
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <title>15</title>
+    <title>Module15</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="<?php echo $url_path ?>/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
     <link href="<?php echo $url_path ?>/css/15.css" rel="stylesheet" type="text/css" />
     <link href="<?php echo $url_path ?>/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
-
     <?php
     if (!class_exists('lessc')) {
         include('./libs/lessc.inc.php');
@@ -34,9 +32,7 @@ $less->compileFile('less/15.less', 'css/15.css');
     $less->compileFile('less/15.less', 'css/15.css');
     ?>
 </head>
-
 <body>
     <?php include '../15/15-content.php'; ?>
 </body>
-
 </html>

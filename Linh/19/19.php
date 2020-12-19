@@ -23,7 +23,10 @@ $less->compileFile('less/19.less', 'css/19.css');
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link href="<?php echo $url_path ?>/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
         <link href="<?php echo $url_path ?>/css/19.css" rel="stylesheet" type="text/css" />
-        
+        <link href="<?php echo $url_path ?>/js/mediaelementplayer.css" rel="stylesheet" type="text/css" />
+        <script href="<?php echo $url_path ?>/js/mediaelement-and-player.min.js"></script>
+        <script href="<?php echo $url_path ?>/js/jquery-2.2.4.min.js"></script>
+        <script href="<?php echo $url_path ?>/js/style.js"></script>
         <?php
         if (!class_exists('lessc')) {
             include ('./libs/lessc.inc.php');
@@ -32,7 +35,7 @@ $less->compileFile('less/19.less', 'css/19.css');
         $less->compileFile('less/19.less', 'css/19.css');
         ?>
     </head>
-    <body >
+    <body>
         <?php include '../19/19-content.php'; ?>
         
     </body>
