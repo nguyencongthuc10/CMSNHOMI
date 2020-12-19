@@ -1,0 +1,151 @@
+.type-24 {
+    .container {
+        padding-left : 15px; //trái
+        padding-right: 15px; //phải
+        margin-left  : auto;
+        margin-right : auto;
+
+    }
+
+    .magrin_travel {
+        .row {
+            margin: 60px 0px;
+
+            .shop {
+                .box {
+                    border          : 1px solid #e8e7e7;
+                    padding         : 20px;
+                    margin          : 30px 0px;
+                    background-color: #fff;
+                    float           : left;
+                    height          : 540px;
+
+                    .item {
+                        .picture-home {
+                            a {
+                                color          : #1aa79b;
+                                text-decoration: none;
+                                transition     : all 0.2s ease;
+                                outline        : none;
+                            }
+
+                            .picturehover {
+                                margin-bottom: 0px;
+
+                                .sale {
+                                    background-color: #1aa79b;
+                                    z-index         : 0;
+                                    top             : 3em;
+                                    left            : 2em;
+                                    min-height      : 3.236em;
+                                    min-width       : 3.236em;
+                                    padding         : 0.202em;
+                                    font-weight     : 700;
+                                    position        : absolute;
+                                    text-align      : center;
+                                    line-height     : 3.236;
+                                    margin          : 0px 0px;
+                                    border-radius   : 100%;
+                                    font-size       : .875em;
+                                    color           : #fff;
+                                }
+
+                                a {
+                                    color: #1aa79b;
+                                }
+                            }
+                        }
+                    }
+
+                    .content {
+                        width: 300px;
+
+                        a {
+                            color          : #1aa79b;
+                            text-decoration: none;
+                            transition     : all 0.2s ease;
+                            outline        : none;
+                        }
+
+                        .star-rating {
+                            margin-top : 7px;
+                            float      : right;
+                            position   : relative;
+                            height     : 1em;
+                            font-size  : 1em;
+                            line-height: 1;
+                        }
+
+                        .price {
+                            del {
+                                display: inline-flex; //sắp xếp bố cục hợp lý, tắt dấu gạch ngăn cách.
+
+                                .amount-price {
+                                    font-size: 18px;
+                                }
+                            }
+
+                            ins {
+                                text-decoration: unset; //tắt gạch chân
+
+                                .amount-price {
+                                    padding  : 2px;
+                                    font-size: 21px;
+
+                                }
+                            }
+
+                        }
+
+                        p {
+                            margin: 10px 0px 15px 0px;
+                        }
+
+                        .prewiew {
+                            margin-top: 15px;
+
+                            .cart {
+                                background   : #fff;
+                                border       : 2px solid #1aa79b;
+                                color        : #1aa79b;
+                                padding      : 7px 20px;
+                                font-weight  : 600;
+                                line-height  : 1;
+                                border-radius: 30px;
+                                font-size    : 100%;
+
+                            }
+
+                            .cart:hover {
+                                background-color: #1aa79b;
+                                color           : #fff;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+    }
+
+    @media screen {
+        .container {
+            .col-md-4 {
+                position: relative;
+                min-height: 1px;
+                padding-right: 15px;
+                padding-left: 15px;
+            }
+        }
+    }
+
+    @media (min-width:992px) {
+        .container {
+           .col-md-4{
+               width: 33.33333333%;
+           }
+        }
+    }
+
+
+}

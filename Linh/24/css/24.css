@@ -1,0 +1,109 @@
+.type-24 .container {
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.type-24 .magrin_travel .row {
+  margin: 60px 0px;
+}
+.type-24 .magrin_travel .row .shop .box {
+  border: 1px solid #e8e7e7;
+  padding: 20px;
+  margin: 30px 0px;
+  background-color: #fff;
+  float: left;
+  height: 540px;
+}
+.type-24 .magrin_travel .row .shop .box .item .picture-home a {
+  color: #1aa79b;
+  text-decoration: none;
+  transition: all 0.2s ease;
+  outline: none;
+}
+.type-24 .magrin_travel .row .shop .box .item .picture-home .picturehover {
+  margin-bottom: 0px;
+}
+.type-24 .magrin_travel .row .shop .box .item .picture-home .picturehover .sale {
+  background-color: #1aa79b;
+  z-index: 0;
+  top: 3em;
+  left: 2em;
+  min-height: 3.236em;
+  min-width: 3.236em;
+  padding: 0.202em;
+  font-weight: 700;
+  position: absolute;
+  text-align: center;
+  line-height: 3.236;
+  margin: 0px 0px;
+  border-radius: 100%;
+  font-size: .875em;
+  color: #fff;
+}
+.type-24 .magrin_travel .row .shop .box .item .picture-home .picturehover a {
+  color: #1aa79b;
+}
+.type-24 .magrin_travel .row .shop .box .content {
+  width: 300px;
+}
+.type-24 .magrin_travel .row .shop .box .content a {
+  color: #1aa79b;
+  text-decoration: none;
+  transition: all 0.2s ease;
+  outline: none;
+}
+.type-24 .magrin_travel .row .shop .box .content .star-rating {
+  margin-top: 7px;
+  float: right;
+  position: relative;
+  height: 1em;
+  font-size: 1em;
+  line-height: 1;
+}
+.type-24 .magrin_travel .row .shop .box .content .price del {
+  display: inline-flex;
+}
+.type-24 .magrin_travel .row .shop .box .content .price del .amount-price {
+  font-size: 18px;
+}
+.type-24 .magrin_travel .row .shop .box .content .price ins {
+  text-decoration: unset;
+}
+.type-24 .magrin_travel .row .shop .box .content .price ins .amount-price {
+  padding: 2px;
+  font-size: 21px;
+}
+.type-24 .magrin_travel .row .shop .box .content p {
+  margin: 10px 0px 15px 0px;
+}
+.type-24 .magrin_travel .row .shop .box .content .prewiew {
+  margin-top: 15px;
+}
+.type-24 .magrin_travel .row .shop .box .content .prewiew .cart {
+  background: #fff;
+  border: 2px solid #1aa79b;
+  color: #1aa79b;
+  padding: 7px 20px;
+  font-weight: 600;
+  line-height: 1;
+  border-radius: 30px;
+  font-size: 100%;
+}
+.type-24 .magrin_travel .row .shop .box .content .prewiew .cart:hover {
+  background-color: #1aa79b;
+  color: #fff;
+}
+@media screen {
+  .type-24 .container .col-md-4 {
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+}
+@media (min-width: 992px) {
+  .type-24 .container .col-md-4 {
+    width: 33.33333333%;
+  }
+}
