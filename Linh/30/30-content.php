@@ -11,122 +11,101 @@ $url_path = $url_host . $matches[1][0];
 
 $url_path = str_replace('\\', '/', $url_path);
 ?>
-<div class="type-139">
-    <div class="container sidebar">
+<div class="type-30">
+    <div class="container details">
         <div class="row">
-            <!--LEFT SIDE BAR-->
-            <!--/END LEFT SIDE BAR-->
-            <!--RIGHT CONTENTS HOME-->
-            <div class="col-md-8">
-                <div class="topnews">
-                    <div class="panel panel-default">
-                        <div class="panel-heading">
-                            <h2>Tin tức <br><span>Thông báo</span></h2>
+            <form>
+                <div class="col-md-8 col-md-offset-2">
+                    <!-- col-md-offset-2 lui vào trong khoang bang 2 col-md -->
+                    <div class="box_style_details">
+                        <div class="form_title_sub">
+                            <h3>
+                                <strong>1</strong>
+                                Your details
+                            </h3>
+                            <p>
+                                Mussum ipsum cacilds, vidis litro abertis.
+                            </p>
                         </div>
-                        <div class="panel-body news">
-                            <!--TOP NEWS-->
-                            <div class="topnews">
-                                <div class="row">
-                                    <div class="col-md-6">
-                                        <div class="row">
-                                            <div class="col-md-4 topnewstime">
-                                                <span class="topnewsdate">19</span><br>
-                                                <span class="topnewsmonth">Tháng 01</span><br>
-                                            </div>
-                                            <div class="col-md-8 bottom">
-                                                <div class="img text-center"> 
-                                                    <a href="#">
-                                                        <div class="topnewsthumb">
-                                                            <img src="http://<?php echo $url_path ?>/images/hinh1.jpg" alt="hinh1">
-                                                        </div>
-                                                    </a>
-                                                </div>
-                                                <h4>
-                                                    <a href="#">TDC kết nối, hợp tác cùng Tập đoàn BKAV</a>                            
-                                                </h4>
-                                                <div class="topnewsdesc">
-                                                    Ngày 18/01 vừa qua, bà Nguyễn Thị Lý – Hiệu trưởng cùng bà Phạm Ngọc Tường – Phó Hiệu trưởng Trường Cao đẳng Công nghệ Thủ Đức (TDC) đã có chuyến thăm và làm việc cùng đại diện lãnh đạo Tập đoàn BKAV (Khu Đô thị Yên Hoà, Q.Cầu Giấy, HN).
-                                                    <a href="#">[...]</a>                            
-                                                </div>
-                                            </div>
-                                        </div>
+                        <div class="form_sub">
+                            <div class="row">
+                                <div class="col-md-6 col-sm-6">
+                                    <div class="form_group">
+                                        <label>First name</label>
+                                        <input type="text" class="form-control" name="firstname">
                                     </div>
-                                    <div class="col-md-6 right">
-                                        <div class="row">
-                                            <div class="col-md-4 topnewstime">
-                                                <span class="topnewsdate">12</span><br>
-                                                <span class="topnewsmonth">Tháng 01</span><br>
-                                            </div>
-                                            <div class="col-md-8">
-                                                <div class="img text-center"> 
-                                                    <a href="#">
-                                                        <div class="topnewsthumb">
-                                                            <img src="http://<?php echo $url_path ?>/images/hinh2.jpg" alt="hinh2">
-                                                        </div>
-                                                    </a>
-                                                </div>
-                                                <h4>
-                                                    <a href="#">Đại diện HCA đến thăm và làm việc cùng Trường Cao đẳng Công nghệ Thủ Đức</a>                            
-                                                </h4>
-                                                <div class="topnewsdesc">
-                                                    Sáng ngày 10/01, ông Vũ Anh Tuấn – Tổng Thư ký Hội tin học TP.Hồ Chí Minh (Ho Chi Minh City Computer Assosiation – HCA) và các thành viên khác của Hội đã đến thăm và làm việc với lãnh đạo Trường Cao đẳng Công nghệ Thủ Đức (TDC).
-                                                    <a href="#">[...]</a>                           
-                                                </div>
-                                            </div>
-                                        </div>
+                                </div>
+                                <div class="col-md-6 col-sm-6">
+                                    <div class="form_group">
+                                        <label>Last name</label>
+                                        <input type="text" class="form-control" name="lastname">
                                     </div>
                                 </div>
                             </div>
-                            <!--/END TOP NEWS-->
-                            <!--LINK HEADLINES TOP NEWS-->
-                            <div class="headlines">
-                                <ul>
-                                    <li>
-                                        <div class="headlinesdate">
-                                            <div class="headlinesdm">
-                                                <div class="headlinesday">30</div>
-                                                <div class="headlinesmonth">12</div>
-                                            </div>
-                                            <div class="headlinesyear">16</div>
-                                        </div>
-                                        <div class="headlinestitle">
-                                            <a href="#">Trường Cao đẳng Công nghệ Thủ Đức trở thành thành viên thứ 334 của Hội Tin học TP. Hồ Chí Minh</a>                    
-                                        </div>
-                                    </li>
-                                    <li>
-                                        <div class="headlinesdate">
-                                            <div class="headlinesdm">
-                                                <div class="headlinesday">23</div>
-                                                <div class="headlinesmonth">12</div>
-                                            </div>
-                                            <div class="headlinesyear">16</div>
-                                        </div>
-                                        <div class="headlinestitle">
-                                            <a href="#">Để không thất nghiệp sau tốt nghiệp: Ngành công nghệ thông tin 'nóng' đến mức nào?</a>                    
-                                        </div>
-                                    </li>
-                                    <li>
-                                        <div class="headlinesdate">
-                                            <div class="headlinesdm">
-                                                <div class="headlinesday">20</div>
-                                                <div class="headlinesmonth">10</div>
-                                            </div>
-                                            <div class="headlinesyear">16</div>
-                                        </div>
-                                        <div class="headlinestitle">
-                                            <a href="#">Săn lùng kỹ sư công nghệ thông tin</a>                    
-                                        </div>
-                                    </li>
-                                </ul>
+                            <div class="row">
+                                <div class="col-md-6 col-sm-6">
+                                    <div class="form_group">
+                                        <label>Email</label>
+                                        <input type="text" class="form-control" name="email">
+                                    </div>
+                                </div>
+                                <div class="col-md-6 col-sm-6">
+                                    <div class="form_group">
+                                        <label>Confrim Email</label>
+                                        <input type="text" class="form-control" name="confirmemail">
+                                    </div>
+                                </div>
                             </div>
-                            <!--/END LINK HEADLINES TOP NEWS-->
-                            <a class="newsall" href="#">Xem tất cả tin tức</a>
+                            <div class="row">
+                                <div class="col-md-6 col-sm-6">
+                                    <div class="form_group">
+                                        <label>Telephone</label>
+                                        <input type="text" class="form-control" name="telephone">
+                                    </div>
+                                </div>
+                            </div>
                         </div>
-                    </div>	
-                    <div class="divider"></div>
+                        <hr>
+                        <div class="form_title_sub">
+                            <h3>
+                                <strong>2</strong>
+                                Choose a plan
+                            </h3>
+                            <p>
+                                Mussum ipsum cacilds, vidis litro abertis.
+                            </p>
+                        </div>
+                        <div class="form_sub">
+                            <div class="plan">
+                                <select name="plan" id="plan" class="form-control">
+                                    <option value="plan1" selected> 6 Months plan $39</option>
+                                    <option value="plan2">3 Months plan $15</option>
+                                    <option value="plan3"> 1 Months plan $10</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="form_title_sub">
+                            <h3>
+                                <strong>3</strong>
+                                Payment info
+                            </h3>
+                            <p>
+                                Mussum ipsum cacilds, vidis litro abertis.
+                            </p>
+                        </div>
+                        <div class="form_sub payment">
+                            <div class="payment">
+                                <label type="radio" value checd name="payment_method" class="checked">Credit card</label>
+                                <i class="fa fa-credit-card" aria-hidden="true"></i>
+                            </div>
+                            <div class="form_group">
+                                <label>Name on card</label>
+                                <input type="text" class="form_control" name="nameoncard" placeholder="Frist and last name">
+                            </div>
+                        </div>
+                    </div>
                 </div>
-            </div>
-            <!--/END RIGHT CONTENTS HOME-->
-        </div>
+            </form>
+        </div>         
     </div>
 </div>
