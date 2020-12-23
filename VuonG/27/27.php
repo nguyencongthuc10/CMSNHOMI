@@ -20,11 +20,12 @@ $less->compileFile('less/1647.less', 'css/1647.css');
     <link href="<?php echo $url_path ?>/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
     <link href="<?php echo $url_path ?>/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
     <link href="<?php echo $url_path ?>/css/1647.css" rel="stylesheet" type="text/css" />
+ 
     <script src="js/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
 </head>
 <body>
-   <?php include '1647-content.php'; ?>
+   <?php include '27-content.php'; ?>
    
 </body>
 </html>

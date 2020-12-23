@@ -14,7 +14,7 @@ $url_path = str_replace('\\', '/', $url_path);
   		<p>Id tale utinam ius, an mei omnium recusabo iracundia.</p>
   		<div class="container">
   			<div class="row">
-  				<div class="col-md-8 col-md-offset-2">
+  				<div class="col-md-8 col-md-offset-2 col-sm-12">
   					
 
 				<!-- Slideshow container -->

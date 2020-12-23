@@ -16,7 +16,6 @@
 		}
 		p{
 				color: #fff;
-				margin-bottom: 22px;
 			    text-transform: none;
 			    font-size: 24px;
 		}
@@ -84,9 +83,18 @@
 	    .swiper-slide {
 	      text-align: center;
 	      font-size: 18px;
-	     
+	      display: -webkit-box;
+	      display: -ms-flexbox;
+	      display: -webkit-flex;
 	      display: flex;
-	      
+	      -webkit-box-pack: center;
+	      -ms-flex-pack: center;
+	      -webkit-justify-content: center;
+	      justify-content: center;
+	      -webkit-box-align: center;
+	      -ms-flex-align: center;
+	      -webkit-align-items: center;
+	      align-items: center;
 	    }
 	    .swiper-pagination{
 	    	display: contents;
@@ -114,7 +122,30 @@
 	    	background: #ed145b !important;
 	    }
 		   	
-
+	    @media screen and (max-width: 767px) {
+		 	.type-14-bao {
+		 		.comment{
+					 		border-left: none;
+					 		padding: 25px;
+				 		}
+				.box_overlay {
+					    padding: 25px;
+    					text-align: center;
+					}
+				.pic{
+						position: static;
+					    margin-bottom: 25px;
+					    width: 100%;
+					    display: block;
+					    figure{
+					    	margin: auto;
+					    }
+					    h4{
+					    	position: static;
+					    }
+					}	
+		 	}
+		}
 }
 
     

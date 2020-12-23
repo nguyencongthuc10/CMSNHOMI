@@ -9,11 +9,11 @@ $url_path = str_replace('\\', '/', $url_path);
 ?>
 <div class="type-389">
   <header>
-        <div class="container-fluid">
+        <div class="container-fluid1">
             <div class="row">
                 <div class="col-sm-4">
                     <a href="https://shtheme.com/demosd/travelguidewp/" id="logo">
-                       <img src="../1647/images/logo_login.png" width="170" height="30" alt="" data-retina="true"></a>
+                       <img src="../27/images/logo_login.png" width="170" height="30" alt="" data-retina="true"></a>
                 </div>
                 <div class="col-sm-8">
                     <a href="https://shtheme.com/demosd/travelguidewp/" class="btn_home pull-right"><i class="icon_house_alt"></i></a>
@@ -24,7 +24,7 @@ $url_path = str_replace('\\', '/', $url_path);
     <div class="container margin_30">
         <div class="row">
             <div class="col-md-12">
-                  <p><img src="http://shtheme.com/demosd/travelguidewp/wp-content/uploads/2017/03/bg_login.png" width="377" height="150" alt="" class="img-responsive" style="margin:auto;">
+                  <p><img src="../27/images/bg_login1.png" width="377" height="150" alt="" class="img-responsive" style="margin:auto;">
                   </p>
             </div>
         </div>
