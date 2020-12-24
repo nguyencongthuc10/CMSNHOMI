@@ -119,7 +119,7 @@ $url_path = str_replace('\\', '/', $url_path);
                             <div class="row">
                                 <div class="col-sm-6">
                                     <div class="form_group">
-                                        <label>AAre yor human? 3 + 1 =</label>
+                                        <label>Are you human? 3 + 1 =</label>
                                         <input type="text" class="form-control" id="verify">
                                     </div>
                                 </div>
@@ -128,7 +128,7 @@ $url_path = str_replace('\\', '/', $url_path);
                         </div>
                     </div>
                       <p class="submitplan">
-                            <input name="subcribe"type="submit"  class="button" value="submitplan" id="submit-plan">
+                            <input name="subscribe" type="submit"  class="button" value="Subscribe plan" id="submit_plan">
                         </p>
                 </div>
             </form>
