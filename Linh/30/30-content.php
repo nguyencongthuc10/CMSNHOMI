@@ -14,7 +14,7 @@ $url_path = str_replace('\\', '/', $url_path);
 <div class="type-30">
     <div class="container details">
         <div class="row">
-            <form>
+            <form method="post" id="sub">
                 <div class="col-md-8 col-md-offset-2">
                     <!-- col-md-offset-2 lui vào trong khoang bang 2 col-md -->
                     <div class="box_style_details">
@@ -77,13 +77,15 @@ $url_path = str_replace('\\', '/', $url_path);
                         </div>
                         <div class="form_sub">
                             <div class="plan">
-                                <select name="plan" id="plan" class="form-control">
-                                    <option value="plan1" selected> 6 Months plan $39</option>
-                                    <option value="plan2">3 Months plan $15</option>
-                                    <option value="plan3"> 1 Months plan $10</option>
+                                <select class="form-control" name="months_plan" id="plan">
+                                    <option selected>Select</option>
+                                    <option value="6_Months_plan"> 6 Months plan $39</option>
+                                    <option value="3_Months_plan">3 Months plan $15</option>
+                                    <option value="1_Months_plan"> 1 Months plan $10</option>
                                 </select>
                             </div>
                         </div>
+                        <hr>
                         <div class="form_title_sub">
                             <h3>
                                 <strong>3</strong>
@@ -93,19 +95,43 @@ $url_path = str_replace('\\', '/', $url_path);
                                 Mussum ipsum cacilds, vidis litro abertis.
                             </p>
                         </div>
-                        <div class="form_sub payment">
-                            <div class="payment">
-                                <label type="radio" value checd name="payment_method" class="checked">Credit card</label>
-                                <i class="fa fa-credit-card" aria-hidden="true"></i>
-                            </div>
-                            <div class="form_group">
-                                <label>Name on card</label>
-                                <input type="text" class="form_control" name="nameoncard" placeholder="Frist and last name">
+                        <div class="form_sub">
+                            <div class="plan">
+                                <select class="form-control" name="payment" id="payment">
+                                    <option selected>Select</option>
+                                    <option value="Creditcard"> Credit card</option>
+                                    <option value="Paypal">Paypal</option>
+                                    <option value="Cash">Cash</option>
+                                </select>
                             </div>
                         </div>
+                        <hr>
+                        <div class="form_title_sub">
+                            <h3>
+                                <strong>4</strong>
+                                Security question
+                            </h3>
+                            <p>
+                                Mussum ipsum cacilds, vidis litro abertis.
+                            </p>
+                        </div>
+                        <div class="form_sub security">
+                            <div class="row">
+                                <div class="col-sm-6">
+                                    <div class="form_group">
+                                        <label>AAre yor human? 3 + 1 =</label>
+                                        <input type="text" class="form-control" id="verify">
+                                    </div>
+                                </div>
+                            </div>
+                            <div id="mess"></div>
+                        </div>
                     </div>
+                      <p class="submitplan">
+                            <input name="subcribe"type="submit"  class="button" value="submitplan" id="submit-plan">
+                        </p>
                 </div>
             </form>
-        </div>         
+        </div>
     </div>
 </div>
