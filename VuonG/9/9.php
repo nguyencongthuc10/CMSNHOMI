@@ -14,18 +14,18 @@
     }
 
     $less = new lessc;
-    $less->compileFile('less/1649.less', 'css/1649.css');
+    $less->compileFile('less/9.less', 'css/9.css');
 
 ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>1649</title>
+  <title>9</title>
 
   <meta charset="utf-8">
  
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <link rel="stylesheet" type="text/css" href="css/1649.css">
+  <link rel="stylesheet" type="text/css" href="css/9.css">
   <link href="<?php echo $url_path ?>/css/font-awesome.min.css" rel="stylesheet" type="text/css"/>
   <link rel="stylesheet" type="text/css" href="<?php echo $url_path ?>/css/bootstrap.min.css">
   <script src="<?php echo $url_path ?>/js/jquery.min.js"></script>
