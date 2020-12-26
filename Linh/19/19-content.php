@@ -25,11 +25,9 @@ $url_path = str_replace('\\', '/', $url_path);
                         <audio controls>
                             <source src="images/ChasingCorporate.mp3" type="audio/mpeg">
                         </audio>
-                          <a href="#">Dowload MP3</a>
+                        <a href="#">Dowload MP3</a>
                     </div>
-                </div>
-
-                <div class="general">
+                    <hr>
                     <img src="images/audio_2.jpg" alt="audio_1" width="900" height="300" class="img-responsive">
                     <div class="audio">
                         <h3>General info an history</h3>
@@ -42,8 +40,7 @@ $url_path = str_replace('\\', '/', $url_path);
                         <a href="#">DowloadMP3</a>
 
                     </div>
-                </div>
-                <div class="general">
+                    <hr>
                     <img src="images/audio_3.jpg" alt="audio_1" width="900" height="300" class="img-responsive">
                     <div class="audio">
                         <h3>General info an history</h3>
@@ -51,12 +48,10 @@ $url_path = str_replace('\\', '/', $url_path);
                             conceptam. Ad nostrud appareat recteque usu. Vis id purto omittantur, vim cu ferri insolens
                             deserunt.</p>
                         <audio controls autoplay>
-                            <source src="images/ChasingCorporate.mp3" type ="audio/mpeg">
+                            <source src="images/ChasingCorporate.mp3" type="audio/mpeg">
                         </audio>
                         <a href="#">Dowload MP3</a>
                     </div>
                 </div>
-
             </div>
         </div>
-    </div>
