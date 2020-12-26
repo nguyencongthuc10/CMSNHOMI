@@ -25,7 +25,7 @@ $url_path = str_replace('\\', '/', $url_path);
                                     <h4 class="panel-title">
                                         <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion"
                                             href="#collapseOne">Anim repehenderit?
-                                            <i class="fal fa-minus-circle"></i>
+                                            <i class="fa fa-minus-circle"></i>
                                         </a>
                                     </h4>
                                 </div>
@@ -47,7 +47,7 @@ $url_path = str_replace('\\', '/', $url_path);
                                     <h4 class="panel-title">
                                         <a class="accordion-toggle" data-toggle="collapse"
                                             data-parent="#accordion" href="#collapseTwo">Parsnip
-                                            lotus root celery?<i class="fal fa-plus-circle"></i>
+                                            lotus root celery?<i class="fa fa-plus-circle"></i>
                                         </a>
                                     </h4>
                                 </div>
@@ -70,7 +70,7 @@ $url_path = str_replace('\\', '/', $url_path);
                                     <h4 class="panel-title">
                                         <a class="accordion-toggle" data-toggle="collapse"
                                             data-parent="#accordion" href="#collapseThree">Beet
-                                            greens peanut salad?<i class="fal fa-plus-circle"></i>
+                                            greens peanut salad?<i class="fa fa-plus-circle"></i>
                                         </a>
                                     </h4>
                                 </div>
