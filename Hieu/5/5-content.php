@@ -19,8 +19,8 @@ $url_path = str_replace('\\', '/', $url_path);
   	<div class="tab-banner">
 
 			<div class="w3-bar">
-			  <button id="tab1" class="w3-bar-item w3-button tablink " onclick="openCity('London')" >Lastest</button>
-			  <button id="tab2" class="w3-bar-item w3-button tablink" onclick="openCity('Paris')">Top Viewed</button>
+			  <button id="tab1" class="w3-bar-item w3-button tablink " style="border-radius: 16px;" onclick="openCity('London')" >Lastest</button>
+			  <button id="tab2" class="w3-bar-item w3-button tablink" style="border-radius: 16px;" onclick="openCity('Paris')">Top Viewed</button>
 
 			</div>
 
