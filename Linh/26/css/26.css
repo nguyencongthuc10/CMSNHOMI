@@ -1,87 +1,41 @@
-.type-30 .details {
+.type-26 .margin_one {
   padding-top: 60px;
   padding-bottom: 30px;
 }
-.type-30 .details .box_style_details {
+.type-26 .box_style_one {
   background-color: #fff;
   padding: 30px 30px 0px 30px;
   margin-bottom: 30px;
   border-radius: 5px;
   border: 1px solid #ededed;
 }
-.type-30 .details .box_style_details .form_title_sub {
-  position: relative;
-  padding-left: 55px;
-  margin-bottom: 10px;
-}
-.type-30 .details .box_style_details .form_title_sub h3 {
-  margin: 0;
-  padding: 0;
-  font-size: 22px;
-  font-weight: 550;
-}
-.type-30 .details .box_style_details .form_title_sub h3 strong {
-  background-color: #ed145b;
-  width: 40px;
-  height: 40px;
-  display: inline-block;
-  border-radius: 50%;
-  color: #fff;
-  font-size: 18px;
-  line-height: 40px;
-  text-align: center;
-  position: absolute;
-  left: 0;
-  top: 0;
-}
-.type-30 .details .box_style_details .form_title_sub p {
-  color: #999;
-  margin: 0;
-  padding: 0;
-  font-size: 12px;
-  line-height: 14px;
-}
-.type-30 .details .box_style_details .form_sub {
-  padding: 20px 0px 0px 31px;
-  margin: 0px 0px 10px 20px;
-}
-.type-30 .details .box_style_details .form_sub .form_group {
+.type-26 .box_style_one .panel-group {
   margin-bottom: 20px;
-  position: relative;
 }
-.type-30 .details .box_style_details .form_sub .form_group label {
-  display: flex;
-  font-weight: 550;
-  opacity: 0.75;
+.type-26 .box_style_one .panel-group .panel {
+  border-radius: 5px;
 }
-.type-30 .details .box_style_details .form_sub .form_group .form-control {
-  color: #333;
-  width: 300px;
-  height: 40px;
-  border-radius: 3px;
-  border: 1px solid #999;
+.type-26 .panel-default .panel-heading {
+  background-color: #fff;
+  padding: 20px;
+  border-bottom: 1px solid #ddd;
 }
-.type-30 .details .box_style_details .form_sub .plan {
-  width: 100%;
-  overflow: hidden;
-  height: 40px;
-  background: #f8f8f8 url(../images/arrow_down.svg) no-repeat right center;
-  border: none;
-  margin-bottom: 15px;
-  border-radius: 3px;
+.type-26 .panel-default .panel-heading .panel-title {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 16px;
+  color: inherit;
 }
-.type-30 .details .box_style_details .form_sub .plan select {
-  background: transparent;
-  width: 115%;
-  padding: 7px 5px 5px 15px;
-  border: 0;
-  border-radius: 0;
-  height: 37px;
-  margin: 0;
-  font-weight: 400;
-  cursor: pointer;
+.type-26 .panel-default .panel-heading .panel-title a {
+  display: block;
   color: #444;
-  opacity: 0.75;
+  outline: none;
+  transition: all 0.2s ease;
+}
+.type-26 .panel-default .panel-heading .panel-title a i {
+  float: right;
+}
+.type-26 .panel {
   box-shadow: none;
-  box-sizing: border-box;
+  border-color: #ededed;
 }

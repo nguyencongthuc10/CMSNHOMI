@@ -11,101 +11,98 @@ $url_path = $url_host . $matches[1][0];
 
 $url_path = str_replace('\\', '/', $url_path);
 ?>
-<div class="type-30">
-    <div class="container details">
-        <div class="row">
-            <form>
-                <div class="col-md-8 col-md-offset-2">
-                    <!-- col-md-offset-2 lui vào trong khoang bang 2 col-md -->
-                    <div class="box_style_details">
-                        <div class="form_title_sub">
-                            <h3>
-                                <strong>1</strong>
-                                Your details
-                            </h3>
-                            <p>
-                                Mussum ipsum cacilds, vidis litro abertis.
-                            </p>
-                        </div>
-                        <div class="form_sub">
-                            <div class="row">
-                                <div class="col-md-6 col-sm-6">
-                                    <div class="form_group">
-                                        <label>First name</label>
-                                        <input type="text" class="form-control" name="firstname">
-                                    </div>
+<div class="type-26">
+    <div class="container margin_one">
+        <div class="col-md-8 col-md-offset-2">
+            <!-- col-md-offset-2 lui vào trong khoang bang 2 col-md -->
+            <div class="box_style_one">
+                <div class="row">
+                    <div class="col-md-12">
+                        <h3>Collapse</h3>
+                        <div class="panel-group" id="accordion">
+
+                            <div class="panel panel-default">
+                                <div class="panel-heading">
+                                    <h4 class="panel-title">
+                                        <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion"
+                                            href="#collapseOne">Anim repehenderit?
+                                            <i class="fal fa-minus-circle"></i>
+                                        </a>
+                                    </h4>
                                 </div>
-                                <div class="col-md-6 col-sm-6">
-                                    <div class="form_group">
-                                        <label>Last name</label>
-                                        <input type="text" class="form-control" name="lastname">
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="row">
-                                <div class="col-md-6 col-sm-6">
-                                    <div class="form_group">
-                                        <label>Email</label>
-                                        <input type="text" class="form-control" name="email">
-                                    </div>
-                                </div>
-                                <div class="col-md-6 col-sm-6">
-                                    <div class="form_group">
-                                        <label>Confrim Email</label>
-                                        <input type="text" class="form-control" name="confirmemail">
+                                <div id="collapseOne" class="panel-collapse collpase in" >
+                                    <div class="panel-body">
+
+                                        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry
+                                        richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor
+                                        brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor,
+                                        sunt aliqua put a bird on it squid single-origin coffee nulla assumenda
+                                        shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson
+                                        cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo.
+                                        Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt
+                                        you probably haven't heard of them accusamus labore sustainable VHS.
                                     </div>
                                 </div>
                             </div>
-                            <div class="row">
-                                <div class="col-md-6 col-sm-6">
-                                    <div class="form_group">
-                                        <label>Telephone</label>
-                                        <input type="text" class="form-control" name="telephone">
+                            <div class="panel panel-default">
+                                <div class="panel-heading">
+                                    <h4 class="panel-title">
+                                        <a class="accordion-toggle" data-toggle="collapse"
+                                            data-parent="#accordion" href="#collapseTwo">Parsnip
+                                            lotus root celery?<i class="fal fa-plus-circle"></i>
+                                        </a>
+                                    </h4>
+                                </div>
+                                <div id="collapseTwo" class="panel-collapse collpase">
+                                    <div class="panel-body">
+
+                                        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry
+                                        richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor
+                                        brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor,
+                                        sunt aliqua put a bird on it squid single-origin coffee nulla assumenda
+                                        shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson
+                                        cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo.
+                                        Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt
+                                        you probably haven't heard of them accusamus labore sustainable VHS.
                                     </div>
                                 </div>
                             </div>
-                        </div>
-                        <hr>
-                        <div class="form_title_sub">
-                            <h3>
-                                <strong>2</strong>
-                                Choose a plan
-                            </h3>
-                            <p>
-                                Mussum ipsum cacilds, vidis litro abertis.
-                            </p>
-                        </div>
-                        <div class="form_sub">
-                            <div class="plan">
-                                <select name="plan" id="plan" class="form-control">
-                                    <option value="plan1" selected> 6 Months plan $39</option>
-                                    <option value="plan2">3 Months plan $15</option>
-                                    <option value="plan3"> 1 Months plan $10</option>
-                                </select>
+                            <div class="panel panel-default">
+                                <div class="panel-heading">
+                                    <h4 class="panel-title">
+                                        <a class="accordion-toggle" data-toggle="collapse"
+                                            data-parent="#accordion" href="#collapseThree">Beet
+                                            greens peanut salad?<i class="fal fa-plus-circle"></i>
+                                        </a>
+                                    </h4>
+                                </div>
+                                <div  id="collapseThree" class="panel-collapse collpase">
+                                    <div class="panel-body">
+
+                                        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry
+                                        richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor
+                                        brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor,
+                                        sunt aliqua put a bird on it squid single-origin coffee nulla assumenda
+                                        shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson
+                                        cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo.
+                                        Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt
+                                        you probably haven't heard of them accusamus labore sustainable VHS.
+                                    </div>
+                                </div>
                             </div>
-                        </div>
-                        <div class="form_title_sub">
-                            <h3>
-                                <strong>3</strong>
-                                Payment info
-                            </h3>
-                            <p>
-                                Mussum ipsum cacilds, vidis litro abertis.
-                            </p>
-                        </div>
-                        <div class="form_sub payment">
-                            <div class="payment">
-                                <label type="radio" value checd name="payment_method" class="checked">Credit card</label>
-                                <i class="fa fa-credit-card" aria-hidden="true"></i>
-                            </div>
-                            <div class="form_group">
-                                <label>Name on card</label>
-                                <input type="text" class="form_control" name="nameoncard" placeholder="Frist and last name">
-                            </div>
+
+
+
+                            
                         </div>
                     </div>
                 </div>
-            </form>
-        </div>         
+                <h3>Mangnifc popup images</h3>
+                <p>Simply add the class magnific-gallery to the parent container like the example below.</p>
+                <h3>Mangnifc popup video (Youtube/Vimeo)</h3>
+                <p>Simply add the class magnific-gallery to the parent container like the example below.</p>
+
+            </div>
+        </div>
     </div>
 </div>
