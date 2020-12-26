@@ -13,7 +13,7 @@ if (!class_exists('lessc')) {
 }
 
 $less = new lessc;
-$less->compileFile('less/139.less', 'css/139.css');
+$less->compileFile('less/26.less', 'css/26.css');
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -22,17 +22,17 @@ $less->compileFile('less/139.less', 'css/139.css');
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link href="<?php echo $url_path ?>/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
-        <link href="<?php echo $url_path ?>/css/139.css" rel="stylesheet" type="text/css" />
+        <link href="<?php echo $url_path ?>/css/26.css" rel="stylesheet" type="text/css" />
         
         <?php
         if (!class_exists('lessc')) {
             include ('./libs/lessc.inc.php');
         }
         $less = new lessc;
-        $less->compileFile('less/139.less', 'css/139.css');
+        $less->compileFile('less/26.less', 'css/26.css');
         ?>
     </head>
     <body >
-        <?php include '../139-demo/139-content.php'; ?>
+        <?php include '../26/26-content.php'; ?>
     </body>
 </html>

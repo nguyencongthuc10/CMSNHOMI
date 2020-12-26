@@ -1,0 +1,36 @@
+body {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+  font-size: 14px !important;
+  line-height: 1.42857143;
+  color: #333 !important;
+  background-color: #fff;
+}
+.container .row .box_style_general {
+  background-color: #fff;
+  padding: 30px 30px 0 30px;
+  margin-bottom: 30px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  border: 1px solid #ededed;
+}
+.container .row .box_style_general h4 {
+  color: #222;
+}
+.container .row .box_style_general .the-icons {
+  padding-top: 5px;
+  font-size: 12px;
+  line-height: 32px;
+}
+.container .row .box_style_general .the-icons .i-code {
+  display: none;
+}
+.container .row .box_style_general .the-icons i {
+  font-size: 26px;
+}
+.container .row .box_style_general .the-icons .my-custom-icon-class:before {
+  content: '\e13a';
+}
+.container .row .box_style_general .the-icons .icon-spin5:before {
+  content: '\f110';
+}

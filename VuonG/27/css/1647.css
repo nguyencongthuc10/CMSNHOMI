@@ -4,9 +4,31 @@ body {
 body .type-389 {
   background: #e0632f;
 }
+body .type-389 .container-fluid1 {
+  padding-top: 20px;
+}
+body .type-389 .container-fluid1 i {
+  margin-top: 20px;
+  margin-right: 20px;
+}
+body .type-389 .container-fluid1 i:before {
+  content: '\f015';
+  font-family: FontAwesome;
+  font-style: normal;
+}
+body .type-389 .container-fluid1 a:hover {
+  text-decoration: none !important;
+}
+body .type-389 .container-fluid1 a.btn_home {
+  color: #fff;
+  font-size: 26px;
+  margin-top: -5px;
+}
+body .type-389 .container-fluid1 a.btn_home:hover {
+  color: #FF9;
+}
 body .type-389 .container {
   margin-top: 30px;
-  margin-bottom: 30px;
 }
 body .type-389 .container .row .container-fluid {
   padding-right: 15px;
@@ -42,6 +64,19 @@ body .type-389 .container .row .container-fluid .box_login strong {
   border-top-left-radius: 5px;
   border-top-right-radius: 5px;
   font-weight: normal;
+}
+body .type-389 .container .row .container-fluid .box_login strong .icon_key_alt:before {
+  content: '\f084';
+  font-family: FontAwesome;
+  font-style: normal;
+}
+body .type-389 .container .row .container-fluid .box_login strong .icon_lock-open_alt:before {
+  content: "\f13e";
+  font-family: FontAwesome;
+  font-style: normal;
+}
+body .type-389 .container .row .container-fluid .box_login strong i {
+  font-size: 45px;
 }
 body .type-389 .container .row .container-fluid .box_login #wpcrlLoginForm {
   background: #fff;
