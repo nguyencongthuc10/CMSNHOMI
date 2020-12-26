@@ -220,28 +220,46 @@
   height: 20px;
   width: 20px;
 }
-@media screen and (max-width: 767px) {
+@media screen and (min-width: 767px) {
   .type-11 .type-11-banner-child .filter_type .from {
-    left: 20%;
+    left: 20% !important;
   }
   .type-11 .type-11-banner-child .filter_type .to {
-    left: 63.5%;
+    left: 63.5% !important;
+  }
+  .type-11 .type-11-banner-child .type-11-irs-from {
+    left: 41.5% !important;
+  }
+  .type-11 .type-11-banner-child .type-11-irs-to {
+    left: 61% !important;
   }
 }
-@media only screen and (width: 280px) {
+@media only screen and (min-width: 280px) {
   .type-11 .type-11-banner-child .filter_type .from {
     left: 19.552% !important;
   }
   .type-11 .type-11-banner-child .filter_type .to {
     left: 62.8401% !important;
   }
+  .type-11 .type-11-banner-child .type-11-irs-from {
+    left: 22.5% !important;
+  }
+  .type-11 .type-11-banner-child .type-11-irs-to {
+    left: 60% !important;
+  }
 }
-@media only screen and (width: 540px) {
+@media only screen and (min-width: 540px) {
   .type-11 .type-11-banner-child .filter_type .from {
     left: 20.7% !important;
   }
   .type-11 .type-11-banner-child .filter_type .to {
     left: 64.2% !important;
+  }
+  .type-11 .type-11-banner-child .type-11-irs-from {
+    left: 123.5% !important;
+  }
+  .type-11 .type-11-banner-child .type-11-irs-to {
+    left: 62.7% !important;
   }
 }
 @media only screen and (width: 768px) {
@@ -259,16 +277,22 @@
   }
 }
 @media only screen and (width: 1024px) {
-  .type-11 .type-11-banner-child .filter_type .from {
+  .type-11 .type-11-filter-banner .type-11-banner-child .filter_type .from {
     left: 19% !important;
   }
-  .type-11 .type-11-banner-child .filter_type .to {
+  .type-11 .type-11-filter-banner .type-11-banner-child .filter_type .to {
     left: 62% !important;
   }
-  .type-11 .type-11-banner-child .type-11-irs .type-11-irs-slider {
-    top: 216px;
+  .type-11 .type-11-filter-banner .type-11-banner-child .type-11-irs-from {
+    left: -10.55664% !important;
   }
-  .type-11 .type-11-banner-child .type-11-irs .type-11-irs-bar {
+  .type-11 .type-11-filter-banner .type-11-banner-child .type-11-irs-to {
+    left: 57% !important;
+  }
+  .type-11 .type-11-filter-banner .type-11-banner-child .type-11-irs-bar {
     top: 219px;
+  }
+  .type-11 .type-11-filter-banner .type-11-banner-child .type-11-irs-slider {
+    top: 216px;
   }
 }

@@ -15,34 +15,38 @@ $url_path = str_replace('\\', '/', $url_path);
     	<div class="col-md-8">
     		<div class="boxUScontact">
     			<div class="contacusname">
+                    <div class="indent_title_in" style="    position: relative;
+    padding-left: 80px;
+    margin-bottom: 20px;">
     				<i class="icon_pencil-edit"></i>
     				<h3>Contact us</h3>
     				<p>Mussum ipsum cacilds, vidis litro abertis.</p>
+                    </div>
     			</div>
-    			<form action="" method="post">
+    			<form action="" method="post" style="padding-left: 80px;">
     				<div class="row">
     					<div class="col-md-6 ">
     						<div class="form-group">
                                 <label>First name</label><br>
                                     <span>
-                                        <input type="text" name="your-name" value="" size="40" placeholder="First name">
+                                        <input type="text"  name="your-name" value="" size="30" placeholder="First name">
                                     </span>
                             </div>
                             <div class="form-group">
                                 <label>Email</label><br>
-                                    <span ><input type="email" name="your-email" value="" size="40" placeholder="Enter Email"></span>
+                                    <span ><input type="email" name="your-email" value="" size="30" placeholder="Enter Email"></span>
                             </div>
     					</div>
     					<div class="col-md-6 ">
     						<div class="form-group">
                                 <label>Last name</label><br>
                                     <span>
-                                        <input type="text" name="your-name" value="" size="40" placeholder="Last name">
+                                        <input type="text" name="your-name" value="" size="33" placeholder="Last name">
                                     </span>
                             </div>
                             <div class="form-group">
                                 <label>Phone number</label><br>
-                                    <span><input type="email" name="your-email" value="" size="40" placeholder="Phone number"></span>
+                                    <span><input type="email" name="your-email" value="" size="33" placeholder="Phone number"></span>
                             </div>
     					</div>
     				</div>
@@ -95,9 +99,11 @@ $url_path = str_replace('\\', '/', $url_path);
         	<div class="infomationss">
         	<h4>Departmens</h4>
         	<strong>Administration</strong>
-        	<p>Phone : 0038 23932342 - Site : admin@atena.comn</p>
+        	<p style="font-size: small;">Phone : 0038 23932342 - Site : admin@atena.comn</p>
+            <p style="font-size: small;">Monday to Friday 9am - 7pm</p>
         	<strong>General questions</strong>
-        	<p>Phone : 0038 23932342 - Site : admin@atena.comn</p>
+        	<p style="font-size: small;">Phone : 0038 23932342 - Site : admin@atena.comn</p>
+            <p style="font-size: small;">Monday to Friday 9am - 7pm</p>
         	</div>
     	</div>
     </div>

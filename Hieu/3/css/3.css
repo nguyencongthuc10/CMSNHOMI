@@ -96,8 +96,8 @@
   height: 75px;
   text-align: right;
 }
-.type-3 .img_wrapper_grid .itemsub span {
-  background: linear-gradient(#2989d8 0%,#1e5799 100%);
+.type-3 .img_wrapper_grid .itemsub .inveters span {
+  background: #2989d8 !important;
 }
 .type-3 .img_wrapper_grid .itemsub span {
   font-size: 10px;
