@@ -10,17 +10,17 @@
         require_once($dir_block.'/libs/lessc.inc.php');
     }
     $less = new lessc;
-    $less->compileFile('less/1646.less', 'css/1646.css');
+    $less->compileFile('less/29.less', 'css/29.css');
 ?>
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <title>1646</title>
+        <title>29</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="user-scalable=0, initial-scale=1.0">
         <link href="<?php echo $url_path ?>/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
         <link href="<?php echo $url_path ?>/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
-        <link href="<?php echo $url_path ?>/css/1646.css" rel="stylesheet" type="text/css" />
+        <link href="<?php echo $url_path ?>/css/29.css" rel="stylesheet" type="text/css" />
         <script src="js/jquery.min.js"></script>
         <script src="js/bootstrap.min.js"></script>
        
