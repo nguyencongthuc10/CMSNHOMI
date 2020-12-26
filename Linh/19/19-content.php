@@ -25,10 +25,11 @@ $url_path = str_replace('\\', '/', $url_path);
                         <audio controls>
                             <source src="images/ChasingCorporate.mp3" type="audio/mpeg">
                         </audio>
-                        <a href="#">Dowload MP3</a>
+                        <a href="#" class="download"><i class="fa fa-cloud-download" aria-hidden="true"></i>Download
+                            MP3</a>
                     </div>
                     <hr>
-                    <img src="images/audio_2.jpg" alt="audio_1" width="900" height="300" class="img-responsive">
+                    <img src="images/audio_2.jpg" alt="audio_2" width="900" height="300" class="img-responsive">
                     <div class="audio">
                         <h3>General info an history</h3>
                         <p>Mea primis sapientem aliquando cu, ubique vocibus euripidis eam te, usu ei soluta prodesset
@@ -37,11 +38,12 @@ $url_path = str_replace('\\', '/', $url_path);
                         <audio controls>
                             <source src="images/ChasingCorporate.mp3" type="audio/mpeg">
                         </audio>
-                        <a href="#">DowloadMP3</a>
+                        <a href="#" class="download"><i class="fa fa-cloud-download" aria-hidden="true"></i>Download
+                            MP3</a>
 
                     </div>
                     <hr>
-                    <img src="images/audio_3.jpg" alt="audio_1" width="900" height="300" class="img-responsive">
+                    <img src="images/audio_3.jpg" alt="audio_3" width="900" height="300" class="img-responsive">
                     <div class="audio">
                         <h3>General info an history</h3>
                         <p>Mea primis sapientem aliquando cu, ubique vocibus euripidis eam te, usu ei soluta prodesset
@@ -50,7 +52,8 @@ $url_path = str_replace('\\', '/', $url_path);
                         <audio controls autoplay>
                             <source src="images/ChasingCorporate.mp3" type="audio/mpeg">
                         </audio>
-                        <a href="#">Dowload MP3</a>
+                        <a href="#" class="download"><i class="fa fa-cloud-download" aria-hidden="true"></i>Download
+                            MP3</a>
                     </div>
                 </div>
             </div>

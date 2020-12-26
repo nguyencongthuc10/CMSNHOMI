@@ -26,7 +26,13 @@
   margin-bottom: 25px;
   margin: 0 0 10px;
 }
-.type-19 .audio a {
+.type-19 .audio .download {
+  font-weight: bold;
+  padding-top: 20px;
   float: right;
-  text-decoration: none;
+  text-decoration: none !important;
+  color: #ec008c;
+}
+.type-19 .audio .download i {
+  margin: 5px;
 }
