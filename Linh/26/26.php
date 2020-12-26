@@ -24,7 +24,6 @@ $less->compileFile('less/26.less', 'css/26.css');
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="<?php echo $url_path ?>/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
     <link href="<?php echo $url_path ?>/css/26.css" rel="stylesheet" type="text/css" />
-    <link href="<?php echo $url_path ?>/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
     <link href="<?php echo $url_path ?>/css/font-awesome.css" rel="stylesheet" type="text/css" />
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" />
     <?php
@@ -36,6 +35,9 @@ $less->compileFile('less/26.less', 'css/26.css');
         ?>
     <style>
     h3 {
+        font-weight:bold;
+        margin-top:20px;
+        margin-bottom:20px;
         color: #222;
     }
     </style>

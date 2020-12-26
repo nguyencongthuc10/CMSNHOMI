@@ -20,7 +20,6 @@ $url_path = str_replace('\\', '/', $url_path);
                     <div class="col-md-12">
                         <h3>Collapse</h3>
                         <div class="panel-group" id="accordion">
-
                             <div class="panel panel-default">
                                 <div class="panel-heading">
                                     <h4 class="panel-title">
@@ -30,9 +29,8 @@ $url_path = str_replace('\\', '/', $url_path);
                                         </a>
                                     </h4>
                                 </div>
-                                <div id="collapseOne" class="panel-collapse collpase in" >
+                                <div id="collapseOne" class="panel-collapse collapse in" >
                                     <div class="panel-body">
-
                                         Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry
                                         richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor
                                         brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor,
@@ -53,7 +51,7 @@ $url_path = str_replace('\\', '/', $url_path);
                                         </a>
                                     </h4>
                                 </div>
-                                <div id="collapseTwo" class="panel-collapse collpase">
+                                <div id="collapseTwo" class="panel-collapse collapse">
                                     <div class="panel-body">
 
                                         Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry
@@ -76,7 +74,7 @@ $url_path = str_replace('\\', '/', $url_path);
                                         </a>
                                     </h4>
                                 </div>
-                                <div  id="collapseThree" class="panel-collapse collpase">
+                                <div  id="collapseThree" class="panel-collapse collapse">
                                     <div class="panel-body">
 
                                         Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry
@@ -89,11 +87,7 @@ $url_path = str_replace('\\', '/', $url_path);
                                         you probably haven't heard of them accusamus labore sustainable VHS.
                                     </div>
                                 </div>
-                            </div>
-
-
-
-                            
+                            </div>  
                         </div>
                     </div>
                 </div>

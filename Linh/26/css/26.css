@@ -26,14 +26,21 @@
   font-size: 16px;
   color: inherit;
 }
+.type-26 .panel-default .panel-heading .panel-title .accordion-toggle {
+  text-decoration: none;
+}
 .type-26 .panel-default .panel-heading .panel-title a {
   display: block;
   color: #444;
   outline: none;
   transition: all 0.2s ease;
+  font-weight: bold;
 }
 .type-26 .panel-default .panel-heading .panel-title a i {
   float: right;
+}
+.type-26 .panel-default .panel-heading .panel-title i:hover {
+  color: #ec008c;
 }
 .type-26 .panel {
   box-shadow: none;

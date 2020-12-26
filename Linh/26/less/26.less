@@ -4,42 +4,58 @@
         padding-bottom: 30px;
     }
 
-    .box_style_one{
+    .box_style_one {
         background-color: #fff;
         padding: 30px 30px 0px 30px;
         margin-bottom: 30px;
         border-radius: 5px;
         border: 1px solid #ededed;
-        .panel-group{
+
+        .panel-group {
             margin-bottom: 20px;
-            .panel{
+
+            .panel {
                 border-radius: 5px;
             }
         }
     }
-    .panel-default{
-        .panel-heading{
+
+    .panel-default {
+        .panel-heading {
             background-color: #fff;
             padding: 20px;
             border-bottom: 1px solid #ddd;
-            .panel-title{
+
+            .panel-title {
                 margin-top: 0;
                 margin-bottom: 0;
                 font-size: 16px;
                 color: inherit;
-                a{
+
+                .accordion-toggle {
+                    text-decoration: none;
+                }
+
+                a {
                     display: block;
                     color: #444;
                     outline: none;
                     transition: all 0.2s ease;
-                   i{
-                       float: right;
-                   }
+                    font-weight: bold;
+
+                    i {
+                        float: right;
+                    }
+                }
+
+                i:hover {
+                    color: #ec008c;
                 }
             }
         }
     }
-    .panel{
+
+    .panel {
         box-shadow: none;
         border-color: #ededed;
     }
