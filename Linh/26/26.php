@@ -25,6 +25,7 @@ $less->compileFile('less/26.less', 'css/26.css');
     <link href="<?php echo $url_path ?>/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
     <link href="<?php echo $url_path ?>/css/26.css" rel="stylesheet" type="text/css" />
     <link href="<?php echo $url_path ?>/css/font-awesome.css" rel="stylesheet" type="text/css" />
+    <link href="<?php echo $url_path ?>/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
     <?php
         if (!class_exists('lessc')) {
             include ('./libs/lessc.inc.php');
