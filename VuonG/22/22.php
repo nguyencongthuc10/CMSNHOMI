@@ -14,7 +14,7 @@
     }
     
     $less = new lessc;
-    $less->compileFile('less/1648.less', 'css/1648.css');
+    $less->compileFile('less/22.less', 'css/22.css');
     
 ?>
 
@@ -22,10 +22,10 @@
 <html lang="en">
     <head>
         <meta charset="UTF-8">
-        <title>Module 1648</title>
+        <title>Module 22</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link href="<?php echo $url_path ?>/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
-        <link href="<?php echo $url_path ?>/css/1648.css" rel="stylesheet" type="text/css"/>
+        <link href="<?php echo $url_path ?>/css/22.css" rel="stylesheet" type="text/css"/>
         <link rel="stylesheet" href="<?php echo $url_path ?>/css/font-awesome.min.css">
         <link rel="stylesheet" href="<?php echo $url_path ?>/css/font-awesome.css">
             <link rel="stylesheet" href="https://kendo.cdn.telerik.com/2020.3.1118/styles/kendo.default-v2.min.css"/>

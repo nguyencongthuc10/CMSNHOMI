@@ -14,11 +14,15 @@ $url_path = str_replace('\\', '/', $url_path);
   	<div class="row">
   		<div class="col-md-8">
   			<div class="img_wrapper_grid">
-  				<div class="itemsub">
-  					<span>Top rated</span>
+  				<div class="itemsub ">
+  					<div class="inveters"><span>Top rated</span></div>
+  					
   				</div>
   				<div class="tool">
-  					<a href=""><a href=""><i class="fa fa-compass" style=""> </i></a></a>
+  					<a href=""><a href=""><i class="fa fa-compass" style=""> </i>
+  						
+  					
+  				</a>
   				</div>
   				<div class="imgXbanner8">
   					<a href=""><img src="images/shop_list_6.jpg"  class="img-rounded" width="800" height="480" class="img-responsive">
@@ -43,7 +47,27 @@ $url_path = str_replace('\\', '/', $url_path);
   					<a href=""><a href=""><i class="fa fa-compass" style=""> </i></a></a>
   				</div>
   				<div class="imgXbanner8">
-  					<a href=""><img src="images/shop_list_6.jpg"  class="img-rounded" width="800" height="240" class="img-responsive">
+  					<a href=""><img src="images/img2.jpg"  class="img-rounded" width="100%" height="240" class="img-responsive">
+
+  					<div class="short007">
+		  					<h3>Florence Boutique</h3>
+		  					<em>Men - Chidren</em>
+		  					<p>Read More</p>
+  					</div>
+  					</a>
+  					
+  				</div>
+
+  			</div>
+  			<div class="img_wrapper_grid">
+  				<div class="itemsub">
+  					<span>Top rated</span>
+  				</div>
+  				<div class="tool">
+  					<a href=""><a href=""><i class="fa fa-compass" style=""> </i></a></a>
+  				</div>
+  				<div class="imgXbanner8">
+  					<a href=""><img src="images/img3.jpg"  class="img-rounded" width="100%" height="240">
 
   					<div class="short007">
 		  					<h3>Florence Boutique</h3>
@@ -65,7 +89,7 @@ $url_path = str_replace('\\', '/', $url_path);
   					<a href=""><a href=""><i class="fa fa-compass" style=""> </i></a></a>
   				</div>
   				<div class="imgXbanner8">
-  					<a href=""><img src="images/shop_list_6.jpg"  class="img-rounded" width="800" height="480" class="img-responsive">
+  					<a href=""><img src="images/img4.jpg"  class="img-rounded" width="100%" height="240" class="img-responsive">
 
   					<div class="short007">
 		  					<h3>Florence Boutique</h3>
@@ -87,7 +111,7 @@ $url_path = str_replace('\\', '/', $url_path);
   					<a href=""><a href=""><i class="fa fa-compass" style=""> </i></a></a>
   				</div>
   				<div class="imgXbanner8">
-  					<a href=""><img src="images/shop_list_6.jpg"  class="img-rounded" width="800" height="480" class="img-responsive">
+  					<a href=""><img src="images/img5.jpg"  class="img-rounded" width="100%" height="240" class="img-responsive">
 
   					<div class="short007">
 		  					<h3>Florence Boutique</h3>
@@ -103,13 +127,16 @@ $url_path = str_replace('\\', '/', $url_path);
   		<div class="col-md-4">
   			<div class="img_wrapper_grid">
   				<div class="itemsub">
-  					<span>Top rated</span>
+  					<div class="itemsub ">
+  					<div class="inveters"><span>Top rated</span></div>
+  					
+  				</div>
   				</div>
   				<div class="tool">
   					<a href=""><a href=""><i class="fa fa-compass" style=""> </i></a></a>
   				</div>
   				<div class="imgXbanner8">
-  					<a href=""><img src="images/shop_list_6.jpg"  class="img-rounded" width="800" height="480">
+  					<a href=""><img src="images/img6.jpg"  class="img-rounded" width="100%" height="240"class="img-responsive">
 
   					<div class="short007">
 		  					<h3>Florence Boutique</h3>
@@ -123,26 +150,7 @@ $url_path = str_replace('\\', '/', $url_path);
   			</div>
   		</div>
   		<div class="col-md-4">
-  			<div class="img_wrapper_grid">
-  				<div class="itemsub">
-  					<span>Top rated</span>
-  				</div>
-  				<div class="tool">
-  					<a href=""><a href=""><i class="fa fa-compass" style=""> </i></a></a>
-  				</div>
-  				<div class="imgXbanner8">
-  					<a href=""><img src="images/shop_list_6.jpg"  class="img-rounded" width="800" height="480">
-
-  					<div class="short007">
-		  					<h3>Florence Boutique</h3>
-		  					<em>Men - Chidren</em>
-		  					<p>Read More</p>
-  					</div>
-  					</a>
-  					
-  				</div>
-
-  			</div>
+  			
   		</div>
   	</div>
     

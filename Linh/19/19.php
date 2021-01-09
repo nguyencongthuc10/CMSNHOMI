@@ -17,26 +17,27 @@ $less->compileFile('less/19.less', 'css/19.css');
 ?>
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <title>19</title>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link href="<?php echo $url_path ?>/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
-        <link href="<?php echo $url_path ?>/css/19.css" rel="stylesheet" type="text/css" />
-        <link href="<?php echo $url_path ?>/js/mediaelementplayer.css" rel="stylesheet" type="text/css" />
-        <script href="<?php echo $url_path ?>/js/mediaelement-and-player.min.js"></script>
-        <script href="<?php echo $url_path ?>/js/jquery-2.2.4.min.js"></script>
-        <script href="<?php echo $url_path ?>/js/style.js"></script>
-        <?php
+
+<head>
+    <title>19</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="<?php echo $url_path ?>/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <link href="<?php echo $url_path ?>/css/19.css" rel="stylesheet" type="text/css" />
+    <link href="<?php echo $url_path ?>/css/font-awesome.css" rel="stylesheet" type="text/css" />
+    <link href="<?php echo $url_path ?>/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
+    <?php
         if (!class_exists('lessc')) {
             include ('./libs/lessc.inc.php');
         }
         $less = new lessc;
         $less->compileFile('less/19.less', 'css/19.css');
         ?>
-    </head>
-    <body>
-        <?php include '../19/19-content.php'; ?>
-        
-    </body>
+</head>
+
+<body>
+    <?php include '../19/19-content.php'; ?>
+
+</body>
+
 </html>
