@@ -1,0 +1,37 @@
+.type-255 .type-255-bao {
+  background: #f5f5f5;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  padding-left: 20px;
+}
+.type-255 .type-255-bao .emty {
+  margin-top: 20px;
+}
+.type-255 .type-255-bao .button {
+  font-size: 100%;
+  margin: 0;
+  line-height: 1;
+  cursor: pointer;
+  position: relative;
+  text-decoration: none;
+  overflow: visible;
+  padding: .618em 1em;
+  font-weight: 700;
+  border-radius: 3px;
+  left: auto;
+  color: #515151;
+  background-color: #ebe9eb;
+  border: 0;
+  white-space: nowrap;
+  display: inline-block;
+  background-image: none;
+  box-shadow: none;
+  -webkit-box-shadow: none;
+  text-shadow: none;
+}
+.type-255 .type-255-bao .button:hover {
+  background-color: #dad8da;
+  text-decoration: none;
+  background-image: none;
+  color: #515151;
+}

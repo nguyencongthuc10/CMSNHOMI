@@ -1,0 +1,38 @@
+.type-19 .general {
+  background-color: #fff;
+  padding: 30px 30px 0px 30px;
+  margin-bottom: 30px;
+  border-radius: 5px;
+  border: 1px solid #ededed;
+}
+.type-19 .general .img-responsive {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+.type-19 .general hr {
+  margin: 30px -30px 30px -30px;
+  border: 0;
+  border-top: 3px solid #f5f5f5;
+}
+.type-19 .audio {
+  padding-left: 60px;
+  position: relative;
+}
+.type-19 .audio h3 {
+  color: #222;
+}
+.type-19 .audio p {
+  margin-bottom: 25px;
+  margin: 0 0 10px;
+}
+.type-19 .audio .download {
+  font-weight: bold;
+  padding-top: 20px;
+  float: right;
+  text-decoration: none !important;
+  color: #ec008c;
+}
+.type-19 .audio .download i {
+  margin: 5px;
+}

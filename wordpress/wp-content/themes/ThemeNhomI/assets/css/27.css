@@ -1,0 +1,91 @@
+body {
+  color: #808080;
+}
+body .type-389 {
+  background: #e0632f;
+  width: 100% !important;
+}
+body .type-389 .container-fluid1 {
+  padding-top: 20px;
+}
+body .type-389 .container-fluid1 i {
+  margin-top: 20px;
+  margin-right: 20px;
+}
+body .type-389 .container-fluid1 i:before {
+  content: '\f015';
+  font-family: FontAwesome;
+  font-style: normal;
+}
+body .type-389 .container-fluid1 a:hover {
+  text-decoration: none !important;
+}
+body .type-389 .container-fluid1 a.btn_home {
+  color: #fff;
+  font-size: 26px;
+  margin-top: -5px;
+}
+body .type-389 .container-fluid1 a.btn_home:hover {
+  color: #FF9;
+}
+body .type-389 .container {
+  margin-top: 30px;
+}
+body .type-389 .container .row .container-fluid {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+body .type-389 .container .row .container-fluid .box_login {
+  padding: 30px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  background-color: #fff;
+  -moz-box-shadow: 0 0 5px rgba(0,0,0,0.3);
+  -webkit-box-shadow: 0 0 5 rgba(0,0,0,0.3);
+  box-shadow: 0 0 5px rgba(0,0,0,0.3);
+  min-height: 530px;
+  position: relative;
+  margin-bottom: 45px;
+}
+body .type-389 .container .row .container-fluid .box_login strong {
+  background: #1aa79b url(../images/waves.png) no-repeat bottom left;
+  border: 2px solid #fff;
+  text-align: center;
+  padding: 35px 0 55px 0;
+  display: block;
+  color: #fff;
+  margin: -50px -30px 20px -30px;
+  -webkit-border-top-left-radius: 5px;
+  -webkit-border-top-right-radius: 5px;
+  -moz-border-radius-topleft: 5px;
+  -moz-border-radius-topright: 5px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  font-weight: normal;
+}
+body .type-389 .container .row .container-fluid .box_login strong .icon_key_alt:before {
+  content: '\f084';
+  font-family: FontAwesome;
+  font-style: normal;
+}
+body .type-389 .container .row .container-fluid .box_login strong .icon_lock-open_alt:before {
+  content: "\f13e";
+  font-family: FontAwesome;
+  font-style: normal;
+}
+body .type-389 .container .row .container-fluid .box_login strong i {
+  font-size: 45px;
+}
+body .type-389 .container .row .container-fluid .box_login #wpcrlLoginForm {
+  background: #fff;
+}
+body .type-389 .container .row .container-fluid .box_login #wpcrlLoginForm .form-group {
+  margin-bottom: 20px;
+  position: relative;
+}
+body .type-389 .container .row .container-fluid .box_login #wpcrlRegisterForm {
+  background: #fff;
+}

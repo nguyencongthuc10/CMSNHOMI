@@ -1,0 +1,172 @@
+/*
+Theme Name:  Nhom I
+Author: Nhom I
+Description: Theme .
+License: GNU General Public License v2 or later
+Text Domain: 
+Tags: Dang Cap Vu Tru !!!
+*/
+
+
+@import 'assets/css/1.css';
+@import 'assets/css/2.css';
+@import 'assets/css/3.css';
+@import 'assets/css/4.css';
+@import 'assets/css/5.css';
+@import 'assets/css/6.css';
+@import 'assets/css/7.css';
+@import 'assets/css/8.css';
+@import 'assets/css/9.css';
+
+@import 'assets/css/11.css';
+
+@import 'assets/css/14.css';
+@import 'assets/css/15.css';
+@import 'assets/css/16.css';
+@import 'assets/css/17.css';
+@import 'assets/css/18.css';
+@import 'assets/css/19.css';
+@import 'assets/css/28.css';
+@import 'assets/css/29.css';
+
+@import 'assets/css/26.css';
+@import 'assets/css/27.css';
+@import 'assets/css/24.css';
+@import 'assets/css/30.css';
+@import 'assets/css/25.css';
+@import 'assets/css/23.css';
+@import 'assets/css/22.css';
+@import 'assets/css/255.css';
+.type-2{
+   margin-top: -10px;
+}
+.type-5{
+   margin-top: 50px;
+}
+.type-3{
+   margin-top: 50px;
+}
+.type-6{
+   margin-top: 50px;
+   width: 100%;
+}
+.type-8{
+   margin-top: 50px;
+}
+.type-7{
+   margin-top: 50px;
+}
+.margin_60{
+   margin-top: 50px;
+
+}
+.type-14{
+   margin-top: 50px;
+}
+.main-nav ul {
+	position: absolute;
+
+	right: 80px;
+	margin-top: 5px;
+ margin: 0;
+
+
+}
+
+
+
+#mega-menu-wrap-main-nav{
+	background: none;
+}
+.main-nav ul li {
+ font: bold 12px/18px sans-serif;
+ display: inline-block;
+ margin-right: -4px;
+ position: relative;
+ padding: 15px 20px;
+ background: none;
+
+ cursor: pointer;
+ -webkit-transition: all 0.2s;
+ -moz-transition: all 0.2s;
+ -ms-transition: all 0.2s;
+ -o-transition: all 0.2s;
+ transition: all 0.2s;
+}
+/*.main-nav ul li:hover {
+
+color: #fff;
+}*/
+.main-nav ul li ul {
+
+ padding: 0;
+ position: absolute;
+ top: 48px;
+ left: 0;
+ width: 150px;
+ -webkit-box-shadow: none;
+ -moz-box-shadow: none;
+ box-shadow: none;
+ display: none;
+ opacity: 0;
+
+ visibility: hidden;
+ -webkit-transiton: opacity 0.2s;
+ -moz-transition: opacity 0.2s;
+ -ms-transition: opacity 0.2s;
+ -o-transition: opacity 0.2s;
+ -transition: opacity 0.2s;
+}
+
+.main-nav ul li a{
+	text-decoration: none;
+	color: #fff;
+	
+}
+.main-nav ul li a:hover ul li{
+	border-top: 10px solid #0000;
+}
+
+.main-nav ul li ul li a
+{
+	color: #4e3838;
+	font-size: 13px;
+	font-weight: 400;
+	transition: all linear .1s;
+
+}
+.main-nav ul li ul li {
+	 text-decoration: none;
+width: 200px;
+ background: #fff;
+ display: block;
+ color: #fff;
+ text-shadow: 0 -1px 0 #000;
+}
+.main-nav ul li ul li:hover { background: none;  }
+.main-nav ul li:hover ul {
+color: #fff;
+
+ display: block;
+ background: #cfc7c7;
+ width: 200px;
+ opacity: 1;
+ visibility: visible;
+}
+.main-nav ul li ul li a:hover{
+	
+ margin-left: 8px;
+}
+ #mega-menu-wrap-main-nav #mega-menu-main-nav > li.mega-menu-megamenu > ul.mega-sub-menu li.mega-menu-column > ul.mega-sub-menu > li.mega-menu-item > a.mega-menu-link{
+ 	font-weight: normal;
+ 	font-size: 14px;
+ 	text-transform: none;
+ 	background: #fff;
+ }
+ #mega-menu-wrap-main-nav #mega-menu-main-nav > li.mega-menu-flyout ul.mega-sub-menu li.mega-menu-item {
+ 	border-bottom: 1px solid #000;
+
+ }
+#mega-menu-wrap-main-nav #mega-menu-main-nav > li.mega-menu-flyout ul.mega-sub-menu li.mega-menu-item a.mega-menu-link{
+	background: #fff;
+}

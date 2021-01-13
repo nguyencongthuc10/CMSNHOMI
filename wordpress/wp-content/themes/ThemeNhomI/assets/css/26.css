@@ -1,0 +1,48 @@
+.type-26 .margin_one {
+  padding-top: 60px;
+  padding-bottom: 30px;
+}
+.type-26 .box_style_one {
+  background-color: #fff;
+  padding: 30px 30px 0px 30px;
+  margin-bottom: 30px;
+  border-radius: 5px;
+  border: 1px solid #ededed;
+}
+.type-26 .box_style_one .panel-group {
+  margin-bottom: 20px;
+}
+.type-26 .box_style_one .panel-group .panel {
+  border-radius: 5px;
+}
+.type-26 .panel-default .panel-heading {
+  background-color: #fff;
+  padding: 20px;
+  border-bottom: 1px solid #ddd;
+}
+.type-26 .panel-default .panel-heading .panel-title {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 16px;
+  color: inherit;
+}
+.type-26 .panel-default .panel-heading .panel-title .accordion-toggle {
+  text-decoration: none;
+}
+.type-26 .panel-default .panel-heading .panel-title a {
+  display: block;
+  color: #444;
+  outline: none;
+  transition: all 0.2s ease;
+  font-weight: bold;
+}
+.type-26 .panel-default .panel-heading .panel-title a i {
+  float: right;
+}
+.type-26 .panel-default .panel-heading .panel-title i:hover {
+  color: #ec008c;
+}
+.type-26 .panel {
+  box-shadow: none;
+  border-color: #ededed;
+}
